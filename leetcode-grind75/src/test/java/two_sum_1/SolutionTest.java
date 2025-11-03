@@ -1,6 +1,6 @@
 package two_sum_1;
 
-import org.junit.jupiter.api.Assertions;
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class SolutionTest {
@@ -12,7 +12,6 @@ public class SolutionTest {
         int[] expected = {1, 2};
 
         Solution solution = new Solution();
-
-        Assertions.assertArrayEquals(expected, solution.twoSum(input, target));
+        Assertions.assertThat(expected).containsExactlyInAnyOrder(solution.twoSum(input, target));
     }
 }
