@@ -10,10 +10,10 @@ class BinarySearchTest {
     @Test
     public void case1() {
         int[] array = Usually.generateRandomNumber(10000);
-        int[] sortedArray = BubbleSort.sort(array);
+        int[] sortedArray = BubbleSort.exec(array);
 
         long start = Instant.now().toEpochMilli();
-        int goThroughCount = BinarySearch.search(sortedArray, 20);
+        int goThroughCount = BinarySearch.exec(sortedArray, 20);
         long end = Instant.now().toEpochMilli();
         System.out.println(start);
         System.out.println(end);
@@ -22,10 +22,10 @@ class BinarySearchTest {
 
 
         array = Usually.generateRandomNumber(20000);
-        sortedArray = BubbleSort.sort(array);
+        sortedArray = BubbleSort.exec(array);
 
         start = Instant.now().toEpochMilli();
-        goThroughCount = BinarySearch.search(sortedArray, 20);
+        goThroughCount = BinarySearch.exec(sortedArray, 20);
         end = Instant.now().toEpochMilli();
         System.out.println(start);
         System.out.println(end);

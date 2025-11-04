@@ -6,14 +6,14 @@ import util.Usually;
 
 import java.time.Instant;
 
-class BubbleSortTest {
+class QuickSortTest {
 
     @Test
     public void case1() {
         int[] array = {5, 3, 1, 2, 4, 6};
         int[] expect = {1, 2, 3, 4, 5, 6};
 
-        int[] result = BubbleSort.exec(array);
+        int[] result = QuickSort.exec(array, 0, array.length - 1);
         Assertions.assertThat(result).containsExactly(expect);
     }
 
@@ -22,7 +22,7 @@ class BubbleSortTest {
         int[] array = {100, 5, 3, 1, 2, 4, 6};
         int[] expect = {1, 2, 3, 4, 5, 6, 100};
 
-        int[] result = BubbleSort.exec(array);
+        int[] result = QuickSort.exec(array, 0, array.length - 1);
         Assertions.assertThat(result).containsExactly(expect);
     }
 
@@ -31,7 +31,7 @@ class BubbleSortTest {
         int[] array = Usually.generateRandomNumber(10000);
         long start = Instant.now().toEpochMilli();
 
-        BubbleSort.exec(array);
+        QuickSort.exec(array, 0, array.length - 1);
 
         long end = Instant.now().toEpochMilli();
         System.out.println(start);
@@ -41,7 +41,7 @@ class BubbleSortTest {
         array = Usually.generateRandomNumber(20000);
         start = Instant.now().toEpochMilli();
 
-        BubbleSort.exec(array);
+        QuickSort.exec(array, 0, array.length - 1);
 
         end = Instant.now().toEpochMilli();
         System.out.println(start);
