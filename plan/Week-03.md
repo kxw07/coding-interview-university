@@ -1,6 +1,6 @@
 # Week 03: Hash Table + Binary Search + Bitwise Operations
 
-**學習時間**：2025/11/18 - 2025/11/22（35 小時）
+**學習時間**：2025/11/17 - 2025/11/21（35 小時）
 
 ## 本週目標
 1. 掌握 Hash Table 的原理與實作
