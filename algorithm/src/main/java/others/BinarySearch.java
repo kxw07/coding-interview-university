@@ -1,7 +1,8 @@
 package others;
 
 public class BinarySearch {
-    public int search(int[] array, int target) {
+
+    public static int search(int[] array, int target) {
         int lowIndex = 0;
         int highIndex = array.length - 1;
         int goThroughCount = 0;

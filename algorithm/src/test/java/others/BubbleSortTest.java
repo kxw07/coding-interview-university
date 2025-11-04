@@ -2,6 +2,7 @@ package others;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
+import util.Usually;
 
 import java.time.Instant;
 
@@ -12,9 +13,8 @@ class BubbleSortTest {
         int[] input = {5, 3, 1, 2, 4, 6};
         int[] expect = {1, 2, 3, 4, 5, 6};
 
-        BubbleSort bubbleSort = new BubbleSort(input);
-        bubbleSort.sort();
-        Assertions.assertThat(bubbleSort.getArray()).containsExactly(expect);
+        int[] result = BubbleSort.sort(input);
+        Assertions.assertThat(result).containsExactly(expect);
     }
 
     @Test
@@ -22,32 +22,30 @@ class BubbleSortTest {
         int[] input = {100, 5, 3, 1, 2, 4, 6};
         int[] expect = {1, 2, 3, 4, 5, 6, 100};
 
-        BubbleSort bubbleSort = new BubbleSort(input);
-        bubbleSort.sort();
-        Assertions.assertThat(bubbleSort.getArray()).containsExactly(expect);
+        int[] result = BubbleSort.sort(input);
+        Assertions.assertThat(result).containsExactly(expect);
     }
 
     @Test
     public void big_array_time_consumption() {
-        BubbleSort bubbleSort = new BubbleSort();
-        bubbleSort.generateRandomNumber(10000);
+        int[] array = Usually.generateRandomNumber(10000);
         long start = Instant.now().toEpochMilli();
 
-        bubbleSort.sort();
+        BubbleSort.sort(array);
 
         long end = Instant.now().toEpochMilli();
         System.out.println(start);
         System.out.println(end);
-        System.out.println(end - start);
+        System.out.println("Time took: " + (end - start));
 
-        bubbleSort.generateRandomNumber(20000);
+        array = Usually.generateRandomNumber(20000);
         start = Instant.now().toEpochMilli();
 
-        bubbleSort.sort();
+        BubbleSort.sort(array);
 
         end = Instant.now().toEpochMilli();
         System.out.println(start);
         System.out.println(end);
-        System.out.println(end - start);
+        System.out.println("Time took: " + (end - start));
     }
 }
