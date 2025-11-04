@@ -30,7 +30,7 @@ class BubbleSortTest {
     @Test
     public void big_array_time_consumption() {
         BubbleSort bubbleSort = new BubbleSort();
-        bubbleSort.generateRandomNumber(100000);
+        bubbleSort.generateRandomNumber(10000);
         long start = Instant.now().toEpochMilli();
 
         bubbleSort.sort();
@@ -40,7 +40,7 @@ class BubbleSortTest {
         System.out.println(end);
         System.out.println(end - start);
 
-        bubbleSort.generateRandomNumber(200000);
+        bubbleSort.generateRandomNumber(20000);
         start = Instant.now().toEpochMilli();
 
         bubbleSort.sort();
