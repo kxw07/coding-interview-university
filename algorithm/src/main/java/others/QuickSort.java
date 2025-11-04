@@ -13,9 +13,11 @@ public class QuickSort {
         return array;
     }
 
+
+    // Lomuto partition
     private static int findPivotIndex(int[] array, int low, int high) {
         int pivotValue = array[high]; // let tail value as pivot, or can let user input.
-        int pivotActualIndex = low -1;
+        int pivotActualIndex = low - 1;
 
         for (int idx = low; idx < high; idx++) {
             if (array[idx] < pivotValue) {
@@ -33,6 +35,7 @@ public class QuickSort {
         return pivotActualIndex;
     }
 
+    // Hoare partition
     private static int teacherFindPivotIndex(int[] array, int left, int right) {
         int pivotValue = array[right]; // let tail value as pivot, or can let user input.
 
