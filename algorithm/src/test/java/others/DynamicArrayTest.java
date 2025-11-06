@@ -53,14 +53,13 @@ class DynamicArrayTest {
 
     @Test
     public void call_isEmpty_when_push_one_object_then_false() {
-        dynamicArray = new DynamicArray();
-        dynamicArray.push(1);
+        dynamicArray = prepareWithItems(1);
 
         Assertions.assertFalse(dynamicArray.isEmpty());
     }
 
     @Test
-    public void call_at_when_index_out_of_bounds_then_throw_runtime_exception() {
+    public void call_at_when_index_out_of_bounds_then_throw_runtimeException() {
         dynamicArray = new DynamicArray(16);
 
         RuntimeException actual = Assertions.assertThrows(RuntimeException.class, () -> dynamicArray.at(999));
@@ -68,7 +67,7 @@ class DynamicArrayTest {
     }
 
     @Test
-    public void call_at_when_index_same_with_capacity_then_throw_runtime_exception() {
+    public void call_at_when_index_same_with_capacity_then_throw_runtimeException() {
         dynamicArray = new DynamicArray(32);
 
         RuntimeException actual = Assertions.assertThrows(RuntimeException.class, () -> dynamicArray.at(32));
@@ -76,7 +75,7 @@ class DynamicArrayTest {
     }
 
     @Test
-    public void call_at_when_index_smaller_than_capacity_then_throw_runtime_exception() {
+    public void call_at_when_index_smaller_than_capacity_then_throw_runtimeException() {
         dynamicArray = new DynamicArray(32);
 
         Assertions.assertNull(dynamicArray.at(31));
@@ -84,9 +83,8 @@ class DynamicArrayTest {
 
     @Test
     public void call_at_when_item_exists_then_return_item() {
-        dynamicArray = new DynamicArray();
         Object expectItem = new Object();
-        dynamicArray.push(expectItem);
+        dynamicArray = prepareWithItems(expectItem);
 
         Assertions.assertEquals(expectItem, dynamicArray.at(0));
     }
@@ -101,37 +99,48 @@ class DynamicArrayTest {
     @Test
     public void call_push_when_capacity_full_then_size_grow_two_times_and_move_items() {
         dynamicArray = prepareItemsSameWithCapacity(16);
+
         dynamicArray.push(16);
 
-        DynamicArray expect = prepareItemsSameWithCapacity(17);
-
-        org.assertj.core.api.Assertions.assertThat(dynamicArray.get()).containsExactly(expect.get());
+        Assertions.assertArrayEquals(prepareItemsSameWithCapacity(17).get(), dynamicArray.get());
         Assertions.assertEquals(32, dynamicArray.capacity());
     }
 
     @Test
     public void given_three_items_when_insert_into_middle_then_pushback_item() {
-        dynamicArray = new DynamicArray();
-        dynamicArray.push(1);
-        dynamicArray.push(2);
-        dynamicArray.push(3);
+        dynamicArray = prepareWithItems(1, 2, 3);
 
         dynamicArray.insert(1, 4);
 
-        DynamicArray expect = prepareWithItems(1, 4, 2, 3);
-
-        org.assertj.core.api.Assertions.assertThat(dynamicArray.get()).containsExactly(expect.get());
+        Assertions.assertArrayEquals(prepareWithItems(1, 4, 2, 3).get(), dynamicArray.get());
     }
 
     @Test
     public void given_one_item_when_prepend_then_pushback_existed_item() {
-        dynamicArray = new DynamicArray();
-        dynamicArray.push(1);
+        dynamicArray = prepareWithItems(1);
+
         dynamicArray.prepend(100);
 
-        DynamicArray expect = prepareWithItems(100, 1);
+        Assertions.assertArrayEquals(prepareWithItems(100, 1).get(), dynamicArray.get());
+    }
 
-        org.assertj.core.api.Assertions.assertThat(dynamicArray.get()).containsExactly(expect.get());
+    @Test
+    public void given_one_item_when_pop_then_return_item_and_become_empty() {
+        Object expect = 1;
+        dynamicArray = prepareWithItems(1);
+
+        Object actual = dynamicArray.pop();
+
+        Assertions.assertEquals(expect, actual);
+        Assertions.assertTrue(dynamicArray.isEmpty());
+    }
+
+    @Test
+    public void given_no_item_when_pop_then_throw_runtimeException() {
+        dynamicArray = new DynamicArray();
+
+        RuntimeException actual = Assertions.assertThrows(RuntimeException.class, () -> dynamicArray.pop());
+        Assertions.assertEquals("no item", actual.getMessage());
     }
 
     private DynamicArray prepareItemsSameWithCapacity(int capacity) {

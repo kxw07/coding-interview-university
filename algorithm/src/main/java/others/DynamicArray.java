@@ -94,4 +94,16 @@ public class DynamicArray {
     public Object[] get() {
         return this.array;
     }
+
+    public Object pop() {
+        if (this.itemIndex == 0) {
+            throw new RuntimeException("no item");
+        }
+
+        Object value = this.array[this.itemIndex - 1];
+        this.array[this.itemIndex - 1] = null;
+        this.itemIndex--;
+
+        return value;
+    }
 }
