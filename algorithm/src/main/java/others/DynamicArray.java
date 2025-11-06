@@ -23,14 +23,13 @@ public class DynamicArray {
     }
 
     // O(1)
-    public int capacity() {
-        return this.capacity;
-    }
-
-
-    // O(1)
     public boolean isEmpty() {
         return itemIndex == 0;
+    }
+
+    // O(1)
+    public int capacity() {
+        return this.capacity;
     }
 
     // O(n) when worst case, O(1) when best case
@@ -45,6 +44,12 @@ public class DynamicArray {
         this.itemIndex++;
     }
 
+    // O(n)
+    public void prepend(Object item) {
+        insert(0, item);
+    }
+
+    // O(n)
     public void insert(int index, Object item) {
         checkBounds(index);
 
@@ -63,10 +68,6 @@ public class DynamicArray {
         this.array = newArray;
     }
 
-    public void prepend(Object item) {
-        insert(0, item);
-    }
-
     // O(n)
     private void resize(int expectCapacity) {
         Object[] newArray = new Object[expectCapacity];
@@ -79,22 +80,25 @@ public class DynamicArray {
     }
 
     // O(1)
-    public Object at(int index) {
-        checkBounds(index);
-
-        return this.array[index];
-    }
-
     private void checkBounds(int index) {
         if (index < 0 || index >= this.capacity) {
             throw new RuntimeException("out of bounds");
         }
     }
 
+    // O(1)
     public Object[] get() {
         return this.array;
     }
 
+    // O(1)
+    public Object at(int index) {
+        checkBounds(index);
+
+        return this.array[index];
+    }
+
+    // O(1)
     public Object pop() {
         if (this.itemIndex == 0) {
             throw new RuntimeException("no item");
@@ -105,5 +109,42 @@ public class DynamicArray {
         this.itemIndex--;
 
         return value;
+    }
+
+    // O(n)
+    public void delete(int index) {
+        checkBounds(index);
+
+        Object[] newArray = new Object[this.capacity];
+        for (int i = 0; i < index; i++) {
+            newArray[i] = this.array[i];
+        }
+
+        for (int i = index; i < this.itemIndex; i++) {
+            newArray[i] = this.array[i + 1];
+        }
+
+        this.itemIndex--;
+        this.array = newArray;
+    }
+
+    // O(n)
+    public void remove(Object item) {
+        for (int i = 0; i < this.itemIndex; i++) {
+            if (item.equals(this.array[i])) {
+                this.array[i] = null;
+            }
+        }
+    }
+
+    // O(n)
+    public int find(Object item) {
+        for (int i = 0; i < this.itemIndex; i++) {
+            if (item.equals(this.array[i])) {
+                return i;
+            }
+        }
+
+        return -1;
     }
 }

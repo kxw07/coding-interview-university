@@ -136,7 +136,7 @@ class DynamicArrayTest {
     }
 
     @Test
-    public void given_no_item_when_pop_then_throw_runtimeException() {
+    public void given_nothing_when_pop_then_throw_runtimeException() {
         dynamicArray = new DynamicArray();
 
         RuntimeException actual = Assertions.assertThrows(RuntimeException.class, () -> dynamicArray.pop());
@@ -159,5 +159,68 @@ class DynamicArrayTest {
         }
 
         return array;
+    }
+
+    @Test
+    public void given_1_3_2_when_delete_3_then_be_1_2() {
+        dynamicArray = prepareWithItems(1, 3, 2);
+
+        dynamicArray.delete(1);
+
+        Assertions.assertArrayEquals(prepareWithItems(1, 2).get(), dynamicArray.get());
+    }
+
+    @Test
+    public void when_delete_out_of_range_then_throw_runtimeException() {
+        dynamicArray = new DynamicArray(16);
+
+        RuntimeException actual = Assertions.assertThrows(RuntimeException.class, () -> dynamicArray.delete(99999));
+        Assertions.assertEquals("out of bounds", actual.getMessage());
+    }
+
+    @Test
+    public void given_1_2_3_when_remove_2_then_be_1___3() {
+        dynamicArray = prepareWithItems(1, 2, 3);
+
+        dynamicArray.remove(2);
+
+        Assertions.assertArrayEquals(prepareWithItems(1, null, 3).get(), dynamicArray.get());
+
+    }
+
+    @Test
+    public void given_1_2_3_2_3_when_remove_2_then_be_1___3___3() {
+        dynamicArray = prepareWithItems(1, 2, 3, 2, 3);
+
+        dynamicArray.remove(2);
+
+        Assertions.assertArrayEquals(prepareWithItems(1, null, 3, null, 3).get(), dynamicArray.get());
+    }
+
+    @Test
+    public void given_1_2_3_when_remove_4_then_no_change() {
+        dynamicArray = prepareWithItems(1, 2, 3);
+
+        dynamicArray.remove(4);
+
+        Assertions.assertArrayEquals(prepareWithItems(1, 2, 3).get(), dynamicArray.get());
+    }
+
+    @Test
+    public void given_items_1_2_3_when_find_item_2_then_return_index_1() {
+        dynamicArray = prepareWithItems(1, 2, 3);
+
+        int actual = dynamicArray.find(2);
+
+        Assertions.assertEquals(1, actual);
+    }
+
+    @Test
+    public void given_items_1_2_3_when_find_item_100_then_return_minus_1() {
+        dynamicArray = prepareWithItems(1, 2, 3);
+
+        int actual = dynamicArray.find(100);
+
+        Assertions.assertEquals(-1, actual);
     }
 }
