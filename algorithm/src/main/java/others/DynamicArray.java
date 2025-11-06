@@ -3,7 +3,6 @@ package others;
 public class DynamicArray {
     private Object[] array;
     private int itemIndex = 0;
-    private int itemSize = 0;
     private int capacity = 16;
 
     public DynamicArray() {
@@ -20,7 +19,7 @@ public class DynamicArray {
 
     // O(1)
     public int size() {
-        return this.itemSize;
+        return this.itemIndex;
     }
 
     // O(1)
@@ -31,12 +30,12 @@ public class DynamicArray {
 
     // O(1)
     public boolean isEmpty() {
-        return itemSize == 0;
+        return itemIndex == 0;
     }
 
     // O(n) when worst case, O(1) when best case
     public void push(Object item) {
-        if (this.itemSize == this.capacity) {
+        if (this.itemIndex == this.capacity) {
             int newCapacity = this.capacity << 1;
             resize(newCapacity);
             this.capacity = newCapacity;
@@ -44,7 +43,6 @@ public class DynamicArray {
 
         this.array[this.itemIndex] = item;
         this.itemIndex++;
-        this.itemSize++;
     }
 
     public void insert(int index, Object item) {
@@ -55,14 +53,13 @@ public class DynamicArray {
             newArray[i] = this.array[i];
         }
 
-        for (int i = index; i < this.itemSize; i++) {
+        for (int i = index; i < this.itemIndex; i++) {
             newArray[i + 1] = this.array[i];
         }
 
         newArray[index] = item;
 
         this.itemIndex++;
-        this.itemSize++;
         this.array = newArray;
     }
 
