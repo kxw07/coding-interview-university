@@ -1,12 +1,13 @@
 package others;
 
 public class DynamicArray {
+    private final int defaultCapacity = 16;
     private Object[] array;
     private int itemIndex = 0;
-    private int capacity = 16;
+    private int capacity = defaultCapacity;
 
     public DynamicArray() {
-        this.array = new Object[this.capacity];
+        this.array = new Object[this.defaultCapacity];
     }
 
     public DynamicArray(int expectCapacity) {
@@ -32,12 +33,15 @@ public class DynamicArray {
         return this.capacity;
     }
 
+    // O(1)
+    public Object[] get() {
+        return this.array;
+    }
+
     // O(n) when worst case, O(1) when best case
     public void push(Object item) {
         if (this.itemIndex == this.capacity) {
-            int newCapacity = this.capacity << 1;
-            resize(newCapacity);
-            this.capacity = newCapacity;
+            resize(this.capacity << 1);
         }
 
         this.array[this.itemIndex] = item;
@@ -77,6 +81,7 @@ public class DynamicArray {
         }
 
         this.array = newArray;
+        this.capacity = expectCapacity;
     }
 
     // O(1)
@@ -84,11 +89,6 @@ public class DynamicArray {
         if (index < 0 || index >= this.capacity) {
             throw new RuntimeException("out of bounds");
         }
-    }
-
-    // O(1)
-    public Object[] get() {
-        return this.array;
     }
 
     // O(1)
@@ -108,7 +108,23 @@ public class DynamicArray {
         this.array[this.itemIndex - 1] = null;
         this.itemIndex--;
 
+        if (this.capacity > this.defaultCapacity && this.itemIndex <= (this.capacity / 4)) {
+            System.out.println("resize in pop");
+            resize(this.capacity >> 1);
+        }
+
         return value;
+    }
+
+    // O(n)
+    public int find(Object item) {
+        for (int i = 0; i < this.itemIndex; i++) {
+            if (item.equals(this.array[i])) {
+                return i;
+            }
+        }
+
+        return -1;
     }
 
     // O(n)
@@ -135,16 +151,5 @@ public class DynamicArray {
                 this.array[i] = null;
             }
         }
-    }
-
-    // O(n)
-    public int find(Object item) {
-        for (int i = 0; i < this.itemIndex; i++) {
-            if (item.equals(this.array[i])) {
-                return i;
-            }
-        }
-
-        return -1;
     }
 }

@@ -143,6 +143,25 @@ class DynamicArrayTest {
         Assertions.assertEquals("no item", actual.getMessage());
     }
 
+    @Test
+    public void when_popped_size_is_one_quarter_of_capacity_then_capacity_shrink_half() {
+        dynamicArray = prepareItemsSameWithCapacity(17);
+        Assertions.assertEquals(32, dynamicArray.capacity());
+
+        int leftOneQuarter = 10;
+
+        pop(leftOneQuarter);
+
+        System.out.println(dynamicArray.size());
+        Assertions.assertEquals(16, dynamicArray.capacity());
+    }
+
+    private void pop(int times) {
+        for (int i = 0; i < times; i++) {
+            dynamicArray.pop();
+        }
+    }
+
     private DynamicArray prepareItemsSameWithCapacity(int capacity) {
         DynamicArray array = new DynamicArray(capacity);
         for (int i = 0; i < capacity; i++) {
