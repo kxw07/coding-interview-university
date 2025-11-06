@@ -1,8 +1,8 @@
 package others;
 
 public class DynamicArray {
-    private int itemIndex = 0;
     private Object[] array;
+    private int itemIndex = 0;
     private int itemSize = 0;
     private int capacity = 16;
 
@@ -37,12 +37,37 @@ public class DynamicArray {
     // O(n) when worst case, O(1) when best case
     public void push(Object item) {
         if (this.itemSize == this.capacity) {
-//            resize(this.capacity << 1);
+            int newCapacity = this.capacity << 1;
+            resize(newCapacity);
+            this.capacity = newCapacity;
         }
 
         this.array[this.itemIndex] = item;
         this.itemIndex++;
         this.itemSize++;
+    }
+
+    public void insert(int index, Object item) {
+        checkBounds(index);
+
+        Object[] newArray = new Object[this.capacity];
+        for (int i = 0; i < index; i++) {
+            newArray[i] = this.array[i];
+        }
+
+        for (int i = index; i < this.itemSize; i++) {
+            newArray[i + 1] = this.array[i];
+        }
+
+        newArray[index] = item;
+
+        this.itemIndex++;
+        this.itemSize++;
+        this.array = newArray;
+    }
+
+    public void prepend(Object item) {
+        insert(0, item);
     }
 
     // O(n)
@@ -67,5 +92,9 @@ public class DynamicArray {
         if (index < 0 || index >= this.capacity) {
             throw new RuntimeException("out of bounds");
         }
+    }
+
+    public Object[] get() {
+        return this.array;
     }
 }

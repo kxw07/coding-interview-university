@@ -97,4 +97,58 @@ class DynamicArrayTest {
 
         Assertions.assertNull(dynamicArray.at(8));
     }
+
+    @Test
+    public void call_push_when_capacity_full_then_size_grow_two_times_and_move_items() {
+        dynamicArray = prepareItemsSameWithCapacity(16);
+        dynamicArray.push(16);
+
+        DynamicArray expect = prepareItemsSameWithCapacity(17);
+
+        org.assertj.core.api.Assertions.assertThat(dynamicArray.get()).containsExactly(expect.get());
+        Assertions.assertEquals(32, dynamicArray.capacity());
+    }
+
+    @Test
+    public void given_three_items_when_insert_into_middle_then_pushback_item() {
+        dynamicArray = new DynamicArray();
+        dynamicArray.push(1);
+        dynamicArray.push(2);
+        dynamicArray.push(3);
+
+        dynamicArray.insert(1, 4);
+
+        DynamicArray expect = prepareWithItems(1, 4, 2, 3);
+
+        org.assertj.core.api.Assertions.assertThat(dynamicArray.get()).containsExactly(expect.get());
+    }
+
+    @Test
+    public void given_one_item_when_prepend_then_pushback_existed_item() {
+        dynamicArray = new DynamicArray();
+        dynamicArray.push(1);
+        dynamicArray.prepend(100);
+
+        DynamicArray expect = prepareWithItems(100, 1);
+
+        org.assertj.core.api.Assertions.assertThat(dynamicArray.get()).containsExactly(expect.get());
+    }
+
+    private DynamicArray prepareItemsSameWithCapacity(int capacity) {
+        DynamicArray array = new DynamicArray(capacity);
+        for (int i = 0; i < capacity; i++) {
+            array.push(i);
+        }
+
+        return array;
+    }
+
+    private DynamicArray prepareWithItems(Object... obj) {
+        DynamicArray array = new DynamicArray(obj.length);
+        for (int i = 0; i < obj.length; i++) {
+            array.push(obj[i]);
+        }
+
+        return array;
+    }
 }
