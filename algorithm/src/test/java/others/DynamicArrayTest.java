@@ -8,28 +8,28 @@ class DynamicArrayTest {
     private DynamicArray dynamicArray;
 
     @Test
-    public void given_expectCapacity_smaller_than_16_when_calling_capacity_then_return_16() {
+    public void call_capacity_when_expectCapacity_smaller_than_16_then_return_16() {
         dynamicArray = new DynamicArray(8);
 
         Assertions.assertEquals(16, dynamicArray.capacity());
     }
 
     @Test
-    public void given_expectCapacity_equal_16_when_calling_capacity_then_return_16() {
+    public void call_capacity_when_expectCapacity_equal_16_then_return_16() {
         dynamicArray = new DynamicArray(16);
 
         Assertions.assertEquals(16, dynamicArray.capacity());
     }
 
     @Test
-    public void given_expectCapacity_greater_than_16_when_calling_capacity_then_return_ceiling_of_2_power() {
+    public void call_capacity_when_expectCapacity_greater_than_16_then_return_ceiling_of_2_power() {
         dynamicArray = new DynamicArray(27);
 
         Assertions.assertEquals(32, dynamicArray.capacity());
     }
 
     @Test
-    public void given_push_two_objects_when_calling_size_then_return_2() {
+    public void call_size_when_push_two_objects_then_return_2() {
         dynamicArray = new DynamicArray();
         dynamicArray.push(1);
         dynamicArray.push(2);
@@ -38,21 +38,21 @@ class DynamicArrayTest {
     }
 
     @Test
-    public void given_nothing_when_calling_size_then_return_0() {
+    public void call_size_when_nothing_then_return_0() {
         dynamicArray = new DynamicArray();
 
         Assertions.assertEquals(0, dynamicArray.size());
     }
 
     @Test
-    public void given_nothing_when_calling_isEmpty_then_true() {
+    public void call_isEmpty_when_nothing_then_true() {
         dynamicArray = new DynamicArray();
 
         Assertions.assertTrue(dynamicArray.isEmpty());
     }
 
     @Test
-    public void given_push_one_object_when_calling_isEmpty_then_false() {
+    public void call_isEmpty_when_push_one_object_then_false() {
         dynamicArray = new DynamicArray();
         dynamicArray.push(1);
 
@@ -65,6 +65,21 @@ class DynamicArrayTest {
 
         RuntimeException actual = Assertions.assertThrows(RuntimeException.class, () -> dynamicArray.at(999));
         Assertions.assertEquals("out of bounds", actual.getMessage());
+    }
+
+    @Test
+    public void call_at_when_index_same_with_capacity_then_throw_runtime_exception() {
+        dynamicArray = new DynamicArray(32);
+
+        RuntimeException actual = Assertions.assertThrows(RuntimeException.class, () -> dynamicArray.at(32));
+        Assertions.assertEquals("out of bounds", actual.getMessage());
+    }
+
+    @Test
+    public void call_at_when_index_smaller_than_capacity_then_throw_runtime_exception() {
+        dynamicArray = new DynamicArray(32);
+
+        Assertions.assertNull(dynamicArray.at(31));
     }
 
     @Test
