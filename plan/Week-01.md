@@ -22,17 +22,17 @@
 **影片清單**：
 
 - [X] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-  - 11/4
+  - 11/4, 10 mins
 - [X] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-  - 11/4
+  - 11/4, 21 mins
 - [X] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-  - 11/4, not recommend, speak not fluently
+  - 11/4, 49 mins, not recommend, speak not fluently
 - [X] [Skiena (video)](https://www.youtube.com/watch?v=z1mkCe3kVUA)
-  - 11/5, good to review
+  - 11/5, 82 mins, good to review
 - [X] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
-  - 11/5
+  - 11/5, 49 mins
 - [X] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-  - 11/5, ???
+  - 11/5, 32 mins, ???
 - [X] TopCoder (includes recurrence relations and master theorem):
     - [Computational Complexity: Section 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
       - 11/5
@@ -41,7 +41,7 @@
 - [X] [Cheat sheet](http://bigocheatsheet.com/)
   - 11/5
 - [X] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
-  - 11/5, good to review
+  - 11/5, 19 mins, good to review
 
 **學習筆記重點**：
 - Big-O, Big-Omega, Big-Theta 的差異
@@ -61,11 +61,16 @@ When you go through "Cracking the Coding Interview", there is a chapter on this,
 #### 理論影片（3 小時）
 
 - [ ] About Arrays:
-	- [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
-    - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-    - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-    - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
-    - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+	- [X] [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
+      - 11/6, 22 mins, from 01:03:45 to 01:25:39
+    - [X] [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+      - 11/6, 8 mins
+    - [X] [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+      - 11/6, 35 mins
+    - [X] [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+      - 11/6, 9 mins
+    - [X] [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+      - 11/6, 5 mins
 
 #### 實作練習（12 小時）
 
