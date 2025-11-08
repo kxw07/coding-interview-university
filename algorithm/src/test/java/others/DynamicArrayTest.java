@@ -3,63 +3,71 @@ package others;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.Objects;
+
 class DynamicArrayTest {
 
     private DynamicArray dynamicArray;
 
     @Test
-    public void call_capacity_when_expectCapacity_smaller_than_16_then_return_16() {
-        dynamicArray = new DynamicArray(8);
-
-        Assertions.assertEquals(16, dynamicArray.capacity());
-    }
-
-    @Test
-    public void call_capacity_when_expectCapacity_equal_16_then_return_16() {
-        dynamicArray = new DynamicArray(16);
-
-        Assertions.assertEquals(16, dynamicArray.capacity());
-    }
-
-    @Test
-    public void call_capacity_when_expectCapacity_greater_than_16_then_return_ceiling_of_2_power() {
-        dynamicArray = new DynamicArray(27);
-
-        Assertions.assertEquals(32, dynamicArray.capacity());
-    }
-
-    @Test
-    public void call_size_when_push_two_objects_then_return_2() {
-        dynamicArray = new DynamicArray();
-        dynamicArray.push(1);
-        dynamicArray.push(2);
+    public void given_two_items_when_call_size_then_return_2() {
+        dynamicArray = prepareWith(new Item(1), new Item(2));
 
         Assertions.assertEquals(2, dynamicArray.size());
     }
 
     @Test
-    public void call_size_when_nothing_then_return_0() {
+    public void given_no_item_when_call_size_then_return_0() {
         dynamicArray = new DynamicArray();
 
         Assertions.assertEquals(0, dynamicArray.size());
     }
 
     @Test
-    public void call_isEmpty_when_nothing_then_true() {
+    public void given_no_item_when_call_isEmpty_then_return_true() {
         dynamicArray = new DynamicArray();
 
         Assertions.assertTrue(dynamicArray.isEmpty());
     }
 
     @Test
-    public void call_isEmpty_when_push_one_object_then_false() {
-        dynamicArray = prepareWithItems(1);
+    public void given_items_when_call_isEmpty_then_return_false() {
+        dynamicArray = prepareWith(new Item(1));
 
         Assertions.assertFalse(dynamicArray.isEmpty());
     }
 
     @Test
-    public void call_at_when_index_out_of_bounds_then_throw_runtimeException() {
+    public void initial_with_capacity_smaller_than_default_16_when_call_capacity_then_return_16() {
+        dynamicArray = new DynamicArray(8);
+
+        Assertions.assertEquals(16, dynamicArray.capacity());
+    }
+
+    @Test
+    public void initial_without_specific_capacity_when_call_capacity_then_return_default_16() {
+        dynamicArray = new DynamicArray();
+
+        Assertions.assertEquals(16, dynamicArray.capacity());
+    }
+
+    @Test
+    public void initial_with_capacity_greater_then_default16_when_call_capacity_then_return_ceiling_of_2_power() {
+        dynamicArray = new DynamicArray(27);
+
+        Assertions.assertEquals(32, dynamicArray.capacity());
+    }
+
+    @Test
+    public void given_items_when_call_get_then_return_items() {
+        dynamicArray = prepareWith(new Item(1), new Item(2), new Item(3));
+
+        Item[] expect = {new Item(1), new Item(2), new Item(3), null, null, null, null, null, null, null, null, null, null, null, null, null};
+        Assertions.assertArrayEquals(expect, dynamicArray.get());
+    }
+
+    @Test
+    public void given_capacity_16_when_call_at_with_999_then_throw_runtimeException_with_message_out_of_bounds() {
         dynamicArray = new DynamicArray(16);
 
         RuntimeException actual = Assertions.assertThrows(RuntimeException.class, () -> dynamicArray.at(999));
@@ -67,7 +75,7 @@ class DynamicArrayTest {
     }
 
     @Test
-    public void call_at_when_index_same_with_capacity_then_throw_runtimeException() {
+    public void given_capacity_16_when_call_at_with_16_then_throw_runtimeException_with_message_out_of_bounds() {
         dynamicArray = new DynamicArray(32);
 
         RuntimeException actual = Assertions.assertThrows(RuntimeException.class, () -> dynamicArray.at(32));
@@ -75,59 +83,65 @@ class DynamicArrayTest {
     }
 
     @Test
-    public void call_at_when_index_smaller_than_capacity_then_throw_runtimeException() {
-        dynamicArray = new DynamicArray(32);
+    public void given_capacity_16_when_call_at_with_15_then_return_item() {
+        dynamicArray = new DynamicArray(16);
 
-        Assertions.assertNull(dynamicArray.at(31));
+        Assertions.assertNull(dynamicArray.at(15));
     }
 
     @Test
-    public void call_at_when_item_exists_then_return_item() {
-        Object expectItem = new Object();
-        dynamicArray = prepareWithItems(expectItem);
+    public void given_item_at_index_0_when_call_at_then_return_item() {
+        Item expectItem = new Item(0);
+        dynamicArray = prepareWith(expectItem);
 
         Assertions.assertEquals(expectItem, dynamicArray.at(0));
     }
 
     @Test
-    public void call_at_when_item_not_exists_then_return_null() {
+    public void given_empty_when_push_then_status_correct() {
+        Item expect = new Item(1);
         dynamicArray = new DynamicArray(16);
+        dynamicArray.push(expect);
 
-        Assertions.assertNull(dynamicArray.at(8));
+        Assertions.assertEquals(1, dynamicArray.size());
+        Assertions.assertEquals(16, dynamicArray.capacity());
+        Assertions.assertFalse(dynamicArray.isEmpty());
+        Assertions.assertEquals(expect, dynamicArray.at(0));
+        Assertions.assertNull(dynamicArray.at(1));
     }
 
     @Test
-    public void call_push_when_capacity_full_then_size_grow_two_times_and_move_items() {
-        dynamicArray = prepareItemsSameWithCapacity(16);
+    public void given_capacity_full_when_push_then_capacity_grow_two_times_and_move_items() {
+        dynamicArray = prepareFullCapacityItems(16);
 
         dynamicArray.push(16);
 
-        Assertions.assertArrayEquals(prepareItemsSameWithCapacity(17).get(), dynamicArray.get());
+        Assertions.assertArrayEquals(prepareFullCapacityItems(17).get(), dynamicArray.get());
         Assertions.assertEquals(32, dynamicArray.capacity());
     }
 
     @Test
-    public void given_three_items_when_insert_into_middle_then_pushback_item() {
-        dynamicArray = prepareWithItems(1, 2, 3);
+    public void given_one_item_when_prepend_then_pushback_existed_item() {
+        dynamicArray = prepareWith(new Item(1));
 
-        dynamicArray.insert(1, 4);
+        dynamicArray.prepend(new Item(100));
 
-        Assertions.assertArrayEquals(prepareWithItems(1, 4, 2, 3).get(), dynamicArray.get());
+        Assertions.assertArrayEquals(prepareWith(new Item(100), new Item(1)).get(), dynamicArray.get());
     }
 
     @Test
-    public void given_one_item_when_prepend_then_pushback_existed_item() {
-        dynamicArray = prepareWithItems(1);
+    public void given_three_items_when_insert_into_middle_then_pushback_item() {
+        dynamicArray = prepareWith(new Item(1), new Item(2), new Item(3));
 
-        dynamicArray.prepend(100);
+        dynamicArray.insert(1, new Item(4));
 
-        Assertions.assertArrayEquals(prepareWithItems(100, 1).get(), dynamicArray.get());
+        Assertions.assertArrayEquals(prepareWith(new Item(1), new Item(4), new Item(2), new Item(3)).get(), dynamicArray.get());
     }
 
     @Test
     public void given_one_item_when_pop_then_return_item_and_become_empty() {
-        Object expect = 1;
-        dynamicArray = prepareWithItems(1);
+        Item expect = new Item(1);
+        dynamicArray = prepareWith(new Item(1));
 
         Object actual = dynamicArray.pop();
 
@@ -136,33 +150,33 @@ class DynamicArrayTest {
     }
 
     @Test
-    public void given_nothing_when_pop_then_throw_runtimeException() {
+    public void given_no_item_when_pop_then_throw_runtimeException_with_message_no_objects() {
         dynamicArray = new DynamicArray();
 
         RuntimeException actual = Assertions.assertThrows(RuntimeException.class, () -> dynamicArray.pop());
-        Assertions.assertEquals("no item", actual.getMessage());
+        Assertions.assertEquals("no objects", actual.getMessage());
     }
 
     @Test
-    public void when_popped_size_is_one_quarter_of_capacity_then_capacity_shrink_half() {
-        dynamicArray = prepareItemsSameWithCapacity(17);
+    public void given_one_quarter_capacity_items_when_popped_then_shrink_capacity_half() {
+        dynamicArray = prepareFullCapacityItems(17);
         Assertions.assertEquals(32, dynamicArray.capacity());
 
         int leftOneQuarter = 10;
 
-        pop(leftOneQuarter);
+        popMultipleTimes(leftOneQuarter);
 
         System.out.println(dynamicArray.size());
         Assertions.assertEquals(16, dynamicArray.capacity());
     }
 
-    private void pop(int times) {
+    private void popMultipleTimes(int times) {
         for (int i = 0; i < times; i++) {
             dynamicArray.pop();
         }
     }
 
-    private DynamicArray prepareItemsSameWithCapacity(int capacity) {
+    private DynamicArray prepareFullCapacityItems(int capacity) {
         DynamicArray array = new DynamicArray(capacity);
         for (int i = 0; i < capacity; i++) {
             array.push(i);
@@ -171,22 +185,22 @@ class DynamicArrayTest {
         return array;
     }
 
-    private DynamicArray prepareWithItems(Object... obj) {
-        DynamicArray array = new DynamicArray(obj.length);
-        for (int i = 0; i < obj.length; i++) {
-            array.push(obj[i]);
+    private DynamicArray prepareWith(Item... item) {
+        DynamicArray array = new DynamicArray(item.length);
+        for (int i = 0; i < item.length; i++) {
+            array.push(item[i]);
         }
 
         return array;
     }
 
     @Test
-    public void given_1_3_2_when_delete_3_then_be_1_2() {
-        dynamicArray = prepareWithItems(1, 3, 2);
+    public void given_items_1_2_3_when_delete_index_1_then_be_1_3() {
+        dynamicArray = prepareWith(new Item(1), new Item(2), new Item(3));
 
         dynamicArray.delete(1);
 
-        Assertions.assertArrayEquals(prepareWithItems(1, 2).get(), dynamicArray.get());
+        Assertions.assertArrayEquals(prepareWith(new Item(1), new Item(3)).get(), dynamicArray.get());
     }
 
     @Test
@@ -198,48 +212,73 @@ class DynamicArrayTest {
     }
 
     @Test
-    public void given_1_2_3_when_remove_2_then_be_1___3() {
-        dynamicArray = prepareWithItems(1, 2, 3);
+    public void given_items_with_1_2_3_when_remove_item_2_then_be_1_null_3() {
+        dynamicArray = prepareWith(new Item(1), new Item(2), new Item(3));
 
-        dynamicArray.remove(2);
+        dynamicArray.remove(new Item(2));
 
-        Assertions.assertArrayEquals(prepareWithItems(1, null, 3).get(), dynamicArray.get());
+        Assertions.assertArrayEquals(prepareWith(new Item(1), null, new Item(3)).get(), dynamicArray.get());
 
     }
 
     @Test
-    public void given_1_2_3_2_3_when_remove_2_then_be_1___3___3() {
-        dynamicArray = prepareWithItems(1, 2, 3, 2, 3);
+    public void given_items_with_1_2_2_3_when_remove_item_2_then_be_1_null_null_3() {
+        dynamicArray = prepareWith(new Item(1), new Item(2), new Item(2), new Item(3));
 
-        dynamicArray.remove(2);
+        dynamicArray.remove(new Item(2));
 
-        Assertions.assertArrayEquals(prepareWithItems(1, null, 3, null, 3).get(), dynamicArray.get());
+        Assertions.assertArrayEquals(prepareWith(new Item(1), null, null, new Item(3)).get(), dynamicArray.get());
     }
 
     @Test
     public void given_1_2_3_when_remove_4_then_no_change() {
-        dynamicArray = prepareWithItems(1, 2, 3);
+        dynamicArray = prepareWith(new Item(1), new Item(2), new Item(3));
 
         dynamicArray.remove(4);
 
-        Assertions.assertArrayEquals(prepareWithItems(1, 2, 3).get(), dynamicArray.get());
+        Assertions.assertArrayEquals(prepareWith(new Item(1), new Item(2), new Item(3)).get(), dynamicArray.get());
     }
 
     @Test
     public void given_items_1_2_3_when_find_item_2_then_return_index_1() {
-        dynamicArray = prepareWithItems(1, 2, 3);
+        dynamicArray = prepareWith(new Item(1), new Item(2), new Item(3));
 
-        int actual = dynamicArray.find(2);
+        int foundIndex = dynamicArray.find(new Item(2));
 
-        Assertions.assertEquals(1, actual);
+        Assertions.assertEquals(1, foundIndex);
     }
 
     @Test
     public void given_items_1_2_3_when_find_item_100_then_return_minus_1() {
-        dynamicArray = prepareWithItems(1, 2, 3);
+        dynamicArray = prepareWith(new Item(1), new Item(2), new Item(3));
 
-        int actual = dynamicArray.find(100);
+        int actual = dynamicArray.find(new Item(100));
 
         Assertions.assertEquals(-1, actual);
+    }
+
+    class Item {
+        private final int value;
+
+        public Item(int value) {
+            this.value = value;
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hashCode(value);
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (o == this)
+                return true;
+
+            if (!(o instanceof Item))
+                return false;
+
+            Item other = (Item) o;
+            return this.value == other.value;
+        }
     }
 }
