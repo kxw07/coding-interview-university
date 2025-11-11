@@ -50,4 +50,27 @@ class SolutionTest {
         Assertions.assertEquals(expectedMaxProfit, sut.maxProfit(prices));
     }
 
+    @Test
+    public void case4() {
+        int[] prices = {1, 4, 2};
+        int expectedMaxProfit = 3;
+
+        Assertions.assertEquals(expectedMaxProfit, sut.maxProfit(prices));
+    }
+
+    @Test
+    public void case5() {
+        int[] prices = {2, 1, 4};
+        int expectedMaxProfit = 3;
+
+        Assertions.assertEquals(expectedMaxProfit, sut.maxProfit(prices));
+    }
+
+    @Test
+    public void case999() {
+        int[] prices = {1, 2, 3, 4, 5};
+        int expectedMaxProfit = 4;
+
+        Assertions.assertEquals(expectedMaxProfit, sut.maxProfit(prices));
+    }
 }
