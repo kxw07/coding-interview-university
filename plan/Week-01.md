@@ -112,11 +112,16 @@ When you go through "Cracking the Coding Interview", there is a chapter on this,
 完成以下 Array 相關題目（至少 8 題）：
 
 **Easy（建議 5 題）**：
-1. [ ] [1. Two Sum](https://leetcode.com/problems/two-sum/)
-2. [ ] [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
-3. [ ] [27. Remove Element](https://leetcode.com/problems/remove-element/)
-4. [ ] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
-5. [ ] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+1. [X] [1. Two Sum](https://leetcode.com/problems/two-sum/)
+   - before 11/11
+2. [X] [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+   - 11/11
+3. [X] [27. Remove Element](https://leetcode.com/problems/remove-element/)
+   - 11/11
+4. [X] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+   - 11/11
+5. [X] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+   - 11/11
 
 **Medium（建議 3 題）**：
 1. [ ] [15. 3Sum](https://leetcode.com/problems/3sum/)
