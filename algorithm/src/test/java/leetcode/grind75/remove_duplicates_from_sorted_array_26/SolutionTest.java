@@ -17,20 +17,25 @@ class SolutionTest {
     public void case1() {
         int[] nums = {1, 1, 2};
         int expectedK = 2;
-        int[] expectedNums = {1, 2, 999};
+        int[] expectedNums = {1, 2};
 
         Assertions.assertEquals(expectedK, sut.removeDuplicates(nums));
-        Assertions.assertArrayEquals(expectedNums, nums);
+        for (int i = 0; i < expectedK; i++) {
+            Assertions.assertEquals(expectedNums[i], nums[i]);
+        }
     }
 
     @Test
     public void case2() {
         int[] nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
         int expectedK = 5;
-        int[] expectedNums = {0, 1, 2, 3, 4, 999, 999, 999, 999, 999};
+        int[] expectedNums = {0, 1, 2, 3, 4};
 
         Assertions.assertEquals(expectedK, sut.removeDuplicates(nums));
-        Assertions.assertArrayEquals(expectedNums, nums);
+
+        for (int i = 0; i < expectedK; i++) {
+            Assertions.assertEquals(expectedNums[i], nums[i]);
+        }
     }
 
 }
