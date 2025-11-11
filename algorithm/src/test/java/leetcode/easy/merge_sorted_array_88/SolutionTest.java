@@ -65,4 +65,17 @@ class SolutionTest {
         Assertions.assertArrayEquals(expected, nums1);
     }
 
+    @Test
+    public void case5() {
+        int[] nums1 = {2,0};
+        int m = 1;
+        int[] nums2 = {1};
+        int n = 1;
+        int[] expected = {1,2};
+
+        sut.merge(nums1, m, nums2, n);
+
+        Assertions.assertArrayEquals(expected, nums1);
+    }
+
 }
