@@ -1,5 +1,6 @@
-package leetcode.grind75.remove_duplicates_from_sorted_array_26;
+package leetcode.easy.remove_duplicates_from_sorted_array_26;
 
+import leetcode.easy.remove_duplicates_from_sorted_array_26.Solution;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
