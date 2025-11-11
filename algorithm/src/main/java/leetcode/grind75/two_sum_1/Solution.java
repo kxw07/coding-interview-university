@@ -1,4 +1,4 @@
-package leetcode_grind75.two_sum_1;
+package leetcode.grind75.two_sum_1;
 
 import java.util.HashMap;
 import java.util.Map;
