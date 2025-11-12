@@ -100,7 +100,6 @@ class SolutionTest {
                 List.of(-2, 0, 2));
 
         List<List<Integer>> actual = sut.threeSum(nums);
-        System.out.println("actual: " + actual);
         Assertions.assertEquals(expect.size(), actual.size());
 
         boolean checkResult = true;

@@ -1,64 +1,32 @@
 package leetcode.medium.three_sum_15;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        if (nums.length < 3) {
-            return new ArrayList<>();
-        }
+        Set<Integer> checked = new HashSet<>();
+        Set<List<Integer>> result = new HashSet<>();
+        Map<Integer, Integer> seen = new HashMap<>();
 
-        int firstNumberPointer = 0;
-        int secondaryNumberPointer = 1;
-        int thirdNumberPointer = 2;
+        for (int i = 0; i < nums.length; i++) {
+            seen.clear();
 
-        List<List<Integer>> result = new ArrayList<>();
+            if (checked.add(nums[i])) {
 
-        while (firstNumberPointer < (nums.length - 2)) {
-            List<Integer> temp = new ArrayList<>();
-            int sum = nums[firstNumberPointer] + nums[secondaryNumberPointer] + nums[thirdNumberPointer];
+                for (int j = i + 1; j < nums.length; j++) {
+                    int wantToFind = -(nums[i] + nums[j]);
 
-            if (sum == 0) {
-                temp.add(nums[firstNumberPointer]);
-                temp.add(nums[secondaryNumberPointer]);
-                temp.add(nums[thirdNumberPointer]);
-                result.add(temp);
-            }
+                    if (seen.containsKey(wantToFind)) {
+                        List<Integer> triplet = Arrays.asList(nums[i], nums[j], wantToFind);
+                        Collections.sort(triplet);
+                        result.add(triplet);
+                    }
 
-            thirdNumberPointer++;
-            if (thirdNumberPointer == nums.length) {
-                secondaryNumberPointer++;
-                thirdNumberPointer = secondaryNumberPointer + 1;
-
-                if (secondaryNumberPointer == nums.length - 1) {
-                    firstNumberPointer++;
-                    secondaryNumberPointer = firstNumberPointer + 1;
-                    thirdNumberPointer = secondaryNumberPointer + 1;
+                    seen.put(nums[j], i);
                 }
             }
         }
 
-        int max = result.size();
-        int index = 0;
-        while (max > 0 && index < result.size()) {
-            List<Integer> first = result.get(index);
-            first = first.stream().sorted().toList();
-
-            for (int i = index + 1; i < result.size(); i++) {
-                List<Integer> second = result.get(i);
-                second = second.stream().sorted().toList();
-
-                if (first.equals(second)) {
-                    result.remove(i);
-                    i--;
-                }
-            }
-
-            max--;
-            index++;
-        }
-
-        return result;
+        return new ArrayList<>(result);
     }
 }
