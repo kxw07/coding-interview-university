@@ -1,4 +1,4 @@
-package leetcode.medium.three_sum_15;
+package leetcode.grind75.three_sum_15;
 
 import java.util.*;
 

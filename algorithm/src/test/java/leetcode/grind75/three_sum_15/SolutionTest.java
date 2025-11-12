@@ -1,5 +1,6 @@
-package leetcode.medium.three_sum_15;
+package leetcode.grind75.three_sum_15;
 
+import leetcode.grind75.three_sum_15.Solution;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

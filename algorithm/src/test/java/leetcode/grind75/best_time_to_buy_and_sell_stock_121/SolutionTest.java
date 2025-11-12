@@ -1,4 +1,4 @@
-package leetcode.easy.best_time_to_buy_and_sell_stock_121;
+package leetcode.grind75.best_time_to_buy_and_sell_stock_121;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
