@@ -12,6 +12,8 @@ public class Solution {
         int head = 0;
         int tail = nums.length - 1;
 
+        // total: O(N)
+        // O(N)
         while(head < tail) {
             if (target == nums[head]) {
                 return head;

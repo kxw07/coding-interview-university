@@ -7,6 +7,8 @@ public class Solution {
         Arrays.sort(nums);
         Set<List<Integer>> result = new HashSet<>();
 
+        // total: O(N^2)
+        // O(N)
         for (int i = 0; i < nums.length; i++) {
             if (i > 0 && nums[i] == nums[i - 1]) continue;
             if (nums[i] > 0) break;
@@ -14,6 +16,7 @@ public class Solution {
             int head = i + 1;
             int tail = nums.length - 1;
 
+            // O(N)
             while (head < tail) {
                 int sum = nums[i] + nums[head] + nums[tail];
 
