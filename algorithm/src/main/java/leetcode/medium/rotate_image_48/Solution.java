@@ -6,7 +6,7 @@ public class Solution {
             return;
         }
 
-        // total: // O(N)
+        // total: O(N＾2/4) -> O(N^2)
         // O(N/2)
         // y
         for (int i = 0; i < (matrix.length / 2 + matrix.length % 2); i++) {
