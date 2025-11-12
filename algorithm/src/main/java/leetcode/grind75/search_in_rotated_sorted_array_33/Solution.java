@@ -6,46 +6,29 @@ public class Solution {
             return target == nums[0] ? 0 : -1;
         }
 
-        return search(nums, 0, nums.length - 1, target);
+        // O(log n), split to 1/2 every time
+        return search(nums, target, 0, nums.length - 1);
     }
 
-    private int search(int[] nums, int head, int tail, int target) {
-        int mid = (head + tail) / 2;
-
-        if (mid == head || mid == tail) {
-            if (target == nums[head]) {
-                return head;
-            } else if (target == nums[tail]) {
-                return tail;
-            } else {
-                return -1;
-            }
-        }
+    private int search(int[] nums, int target, int head, int tail) {
+        if (head > tail) return -1;
+        int mid = head + (tail - head) / 2;
 
         if (target == nums[mid]) {
             return mid;
         }
 
-        if (nums[tail] > nums[head]) {
-            if (target > nums[mid]) {
-                return search(nums, mid, tail, target);
+        if (nums[mid] >= nums[head]) {
+            if (target >= nums[head] && target <= nums[mid]) {
+                return search(nums, target, head, mid - 1);
             } else {
-                return search(nums, head, mid, target);
+                return search(nums, target, mid + 1, tail);
             }
         } else {
-            if (target > nums[mid]) {
-                if (target <= nums[tail] || nums[mid] > nums[tail]) {
-                    return search(nums, mid, tail, target);
-                } else {
-                    return search(nums, head, mid, target);
-                }
-
+            if (target >= nums[mid] && target <= nums[tail]) {
+                return search(nums, target, mid + 1, tail);
             } else {
-                if (target >= nums[head] || nums[mid] < nums[head]) {
-                    return search(nums, head, mid, target);
-                } else {
-                    return search(nums, mid, tail, target);
-                }
+                return search(nums, target, head, mid - 1);
             }
         }
     }
