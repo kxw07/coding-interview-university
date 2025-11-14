@@ -1,6 +1,6 @@
 # Week 03: Hash Table + Binary Search + Bitwise Operations
 
-**學習時間**：2025/11/17 - 2025/11/21（35 小時）
+**學習時間**：2025/11/17 - 2025/11/21（30 小時）
 
 ## 本週目標
 1. 掌握 Hash Table 的原理與實作
@@ -171,25 +171,27 @@ public int binarySearch(int[] nums, int target) {
 
 ## 學習建議
 
-### Day 1 (Monday) - 7 小時
-- 上午（4h）：Hash Table 理論影片（Hashing with Chaining, Table Doubling, Open Addressing）
-- 下午（3h）：Hash Table 理論影片（PyCon, Advanced Hashing）
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-02 複習 + 完成 Week-02 剩餘 Queue LeetCode × 1
+- 下午（3h）：Hash Table 理論影片（Hashing with Chaining, Table Doubling, Open Addressing）
 
-### Day 2 (Tuesday) - 7 小時
-- 上午（3h）：Hash Table Online Courses（Core Hash Tables, Phone Book Problem）
-- 下午（4h）：開始實作 Hash Table - hash(), add(), exists()
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：Hash Table 理論影片（PyCon, Advanced Hashing）
+- 下午（3h）：Hash Table Online Courses（Core Hash Tables, Phone Book Problem）
 
-### Day 3 (Wednesday) - 7 小時
-- 上午（4h）：完成 Hash Table 實作 - get(), remove() + 測試
-- 下午（3h）：Binary Search 理論 + 實作（iterative & recursive）
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：開始實作 Hash Table - hash(), add(), exists()
+- 下午（3h）：完成 Hash Table 實作 - get(), remove() + 測試
 
-### Day 4 (Thursday) - 7 小時
-- 上午（3h）：Bitwise Operations 影片與練習
-- 下午（4h）：LeetCode Hash Table 題目 × 3
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：Binary Search 理論 + 實作（iterative & recursive）
+- 下午（3h）：Bitwise Operations 影片與練習
 
-### Day 5 (Friday) - 7 小時
-- 上午（4h）：LeetCode Binary Search × 3 + Bitwise × 2
-- 下午（3h）：LeetCode 剩餘題目 + 本週複習
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：LeetCode Hash Table 題目 × 3
+- 下午（3h）：LeetCode Binary Search × 2 + Bitwise × 1
+
+**註：** 剩餘 LeetCode Binary Search × 1、Bitwise × 1、其他剩餘題目與本週複習移至 Week-04 開始進行
 
 ---
 

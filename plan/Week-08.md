@@ -1,6 +1,6 @@
 # Week 08: Graphs 進階演算法
 
-**學習時間**：2025/12/22 - 2025/12/26（35 小時）
+**學習時間**：2025/12/22 - 2025/12/26（30 小時）
 
 ## 本週目標
 1. 掌握最短路徑演算法（Dijkstra, Bellman-Ford）
@@ -166,6 +166,34 @@ public int kruskal(int V, List<int[]> edges) {
     return edgesUsed == V - 1 ? mstWeight : -1;
 }
 ```
+
+---
+
+## 學習建議
+
+**註：** 本週開始前請先完成上週未完成的內容與複習
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-07 複習 + Aduni Graph Algorithms I (Topological Sorting, MST, Prim)
+- 下午（3h）：Aduni Graph Algorithms II (DFS, BFS, Kruskal, Union Find)
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：Aduni Graph Algorithms III (Shortest Path) + Aduni Graph Algorithms IV
+- 下午（3h）：CS 61B Weighted graphs + Greedy Algorithms MST
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：Strongly Connected Components + Review Shortest Path + Review MST
+- 下午（3h）：實作 Dijkstra's Algorithm + Bellman-Ford Algorithm
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：實作 Prim's Algorithm + Kruskal's Algorithm
+- 下午（3h）：實作 Union-Find Data Structure + Floyd-Warshall
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：LeetCode Shortest Path × 3
+- 下午（3h）：LeetCode MST & Union Find × 3
+
+**註：** 剩餘 LeetCode 題目與本週複習移至下週開始進行
 
 ---
 

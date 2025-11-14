@@ -1,6 +1,6 @@
 # Week 05: Heap/Priority Queue + Sorting 基礎
 
-**學習時間**：2025/12/01 - 2025/12/05（35 小時）
+**學習時間**：2025/12/01 - 2025/12/05（30 小時）
 
 ## 本週目標
 1. 掌握 Heap 資料結構與 Priority Queue
@@ -132,25 +132,27 @@
 
 ## 學習建議
 
-### Day 1 (Monday) - 7 小時
-- 上午（4h）：Heap 理論影片（Introduction, Binary Trees, Basic Operations）
-- 下午（3h）：Heap 理論影片（Complete Binary Trees, Pseudocode, Heap Sort）
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-04 複習 + 完成 BST 測試
+- 下午（3h）：LeetCode Traversal 題目 × 3
 
-### Day 2 (Tuesday) - 7 小時
-- 上午（4h）：Heap 理論影片（Building heap, MIT, CS 61B）
-- 下午（3h）：開始實作 Max Heap - insert, sift_up, get_max
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：LeetCode Tree & BST 題目各 2-3 題
+- 下午（3h）：Heap 理論影片（Introduction, Binary Trees, Basic Operations）
 
-### Day 3 (Wednesday) - 7 小時
-- 上午（4h）：實作 Max Heap - extract_max, sift_down, remove
-- 下午（3h）：實作 Max Heap - heapify, heap_sort + 測試
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：Heap 理論影片（Complete Binary Trees, Pseudocode, Heap Sort）
+- 下午（3h）：Heap 理論影片（Building heap, MIT）
 
-### Day 4 (Thursday) - 7 小時
-- 上午（4h）：Sorting 理論（Stability, Sedgewick Mergesort 5 videos）
-- 下午（3h）：Sorting 理論（Sedgewick Quicksort 4 videos）
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：Heap 理論影片（CS 61B）+ 開始實作 Max Heap - insert, sift_up
+- 下午（3h）：實作 Max Heap - get_max, extract_max, sift_down
 
-### Day 5 (Friday) - 7 小時
-- 上午（4h）：實作 Merge Sort & Quick Sort + LeetCode Heap × 2
-- 下午（3h）：LeetCode Heap × 2 + Sorting × 2 + 本週複習
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：實作 Max Heap - remove, heapify, heap_sort + 測試
+- 下午（3h）：Sorting 理論（Stability, Sedgewick Mergesort 前 3 個 videos）
+
+**註：** Sedgewick Mergesort 後 2 個 videos、Sedgewick Quicksort 4 videos、實作 Merge Sort & Quick Sort、LeetCode Heap × 4、LeetCode Sorting × 2 與本週複習移至 Week-06 開始進行
 
 ---
 

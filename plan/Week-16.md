@@ -1,6 +1,6 @@
 # Week 16: 最後衝刺 - 面試技巧與投遞 FAANG
 
-**學習時間**：2026/02/16 - 2026/02/20（35 小時）
+**學習時間**：2026/02/16 - 2026/02/20（30 小時）
 
 ## 本週目標
 1. 完成所有面試準備
@@ -185,6 +185,32 @@ Some of mine (I already may know the answers, but want their opinion or team per
 5. **Impact & Achievement**
    - [ ] 最有成就感的專案
    - [ ] 帶來顯著業務影響的工作
+
+---
+
+## 學習建議
+
+**註：** 本週開始前請先完成上週未完成的內容與複習
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-15 複習 + Cracking The Coding Interview 影片
+- 下午（3h）：Behavioral Questions 準備（Leadership, Problem Solving 故事）
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：Behavioral Questions 準備（Conflict, Learning, Impact 故事）
+- 下午（3h）：準備要問面試官的問題 + Mock Interview × 2
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：Mock Interview × 2-3 (Coding)
+- 下午（3h）：LeetCode 高頻題 × 4
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：LeetCode 高頻題 × 4
+- 下午（3h）：Mock Interview × 2 (Behavioral + Coding)
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：履歷與申請材料最終檢查 + 開始投遞 FAANG
+- 下午（3h）：Mock Interview × 2 + 本週總複習
 
 ---
 

@@ -1,6 +1,6 @@
 # Week 15: Final Review + LeetCode 密集練習
 
-**學習時間**：2026/02/09 - 2026/02/13（35 小時）
+**學習時間**：2026/02/09 - 2026/02/13（30 小時）
 
 ## 本週目標
 1. 總複習所有核心主題
@@ -169,6 +169,32 @@
 1.
 2.
 3.
+
+---
+
+## 學習建議
+
+**註：** 本週開始前請先完成上週未完成的內容與複習
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-14 複習 + Sedgewick Algorithms I 複習
+- 下午（3h）：LeetCode Array & String × 3
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：LeetCode Array & String × 2 + Linked List & Tree × 1
+- 下午（3h）：LeetCode Linked List & Tree × 3
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：Sedgewick Algorithms II 複習 + LeetCode Graph & DP × 2
+- 下午（3h）：LeetCode Graph & DP × 3
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：LeetCode 混合高頻題 × 3
+- 下午（3h）：LeetCode 混合高頻題 × 2 + 模擬面試 × 1
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：LeetCode 綜合模擬 × 2 + 模擬面試 × 1
+- 下午（3h）：模擬面試 × 2
 
 ---
 

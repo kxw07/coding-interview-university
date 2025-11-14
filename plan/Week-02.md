@@ -1,6 +1,6 @@
 # Week 02: Linked Lists + Stack + Queue
 
-**學習時間**：2025/11/10 - 2025/11/14（35 小時）
+**學習時間**：2025/11/10 - 2025/11/14（30 小時）
 
 ## 本週目標
 1. 掌握 Linked List 的實作與應用
@@ -144,25 +144,27 @@
 
 ## 學習建議
 
-### Day 1 (Monday) - 7 小時
+### Day 1 (Monday) - 6 小時
 - 上午（3h）：Linked List 理論影片（CS50, Singly Linked Lists, CS 61B part 1）
-- 下午（4h）：Linked List 理論影片（CS 61B part 2, C Code, Review）+ 開始實作
+- 下午（3h）：Linked List 理論影片（CS 61B part 2, C Code, Review）
 
-### Day 2 (Tuesday) - 7 小時
-- 上午（4h）：實作 Linked List - size(), empty(), value_at(), push_front(), pop_front()
-- 下午（3h）：實作 Linked List - push_back(), pop_back(), front(), back()
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：開始實作 Linked List - size(), empty(), value_at(), push_front()
+- 下午（3h）：實作 Linked List - pop_front(), push_back(), pop_back(), front()
 
-### Day 3 (Wednesday) - 7 小時
-- 上午（4h）：實作 Linked List - insert(), erase(), value_n_from_end()
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：實作 Linked List - back(), insert(), erase(), value_n_from_end()
 - 下午（3h）：實作 Linked List - reverse(), remove_value() + 測試
 
-### Day 4 (Thursday) - 7 小時
+### Day 4 (Thursday) - 6 小時
 - 上午（3h）：Stack 理論 + Queue 理論影片
-- 下午（4h）：Queue 實作（linked-list 版本 + array 版本）
+- 下午（3h）：Queue 實作（linked-list 版本 + array 版本）
 
-### Day 5 (Friday) - 7 小時
+### Day 5 (Friday) - 6 小時
 - 上午（3h）：LeetCode Linked List 題目 × 3
-- 下午（4h）：LeetCode Stack × 2 + Queue × 2 + 本週複習
+- 下午（3h）：LeetCode Stack × 2 + Queue × 1
+
+**註：** 剩餘 1 道 Queue LeetCode 題目與本週複習移至 Week-03 開始進行
 
 ---
 

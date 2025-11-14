@@ -1,6 +1,6 @@
 # Week 06: Sorting 進階
 
-**學習時間**：2025/12/08 - 2025/12/12（35 小時）
+**學習時間**：2025/12/08 - 2025/12/12（30 小時）
 
 ## 本週目標
 1. 深入理解各種排序算法
@@ -92,25 +92,27 @@
 
 ## 學習建議
 
-### Day 1 (Monday) - 7 小時
-- 上午（4h）：UC Berkeley CS 61B Sorting I & II
-- 下午（3h）：UC Berkeley CS 61B Sorting III & V
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-05 複習 + Sedgewick Mergesort 後 2 個 videos
+- 下午（3h）：Sedgewick Quicksort 4 videos
 
-### Day 2 (Tuesday) - 7 小時
-- 上午（4h）：基本排序算法影片（Bubble, Insertion, Selection）
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：實作 Merge Sort & Quick Sort
+- 下午（3h）：LeetCode Heap × 4
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：LeetCode Sorting × 2 + UC Berkeley CS 61B Sorting I
+- 下午（3h）：UC Berkeley CS 61B Sorting II & III
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：UC Berkeley CS 61B Sorting V + 基本排序算法影片（Bubble, Insertion, Selection）
 - 下午（3h）：進階排序影片（Merge, Quick）+ Review playlist
 
-### Day 3 (Wednesday) - 7 小時
-- 上午（4h）：實作 Insertion Sort, Selection Sort, Bubble Sort
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：實作 Insertion Sort, Selection Sort, Bubble Sort
 - 下午（3h）：優化 Merge Sort & Quick Sort 實作
 
-### Day 4 (Thursday) - 7 小時
-- 上午（3h）：Radix Sort 理論（選修，但建議學習）
-- 下午（4h）：LeetCode Easy 排序題 × 4
-
-### Day 5 (Friday) - 7 小時
-- 上午（4h）：LeetCode Medium 排序題 × 4
-- 下午（3h）：LeetCode Medium/Hard × 3 + 本週總複習
+**註：** Radix Sort 理論、LeetCode Easy 排序題 × 4、LeetCode Medium 排序題 × 4、LeetCode Medium/Hard × 3 與本週總複習移至 Week-07 開始進行
 
 ---
 

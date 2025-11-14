@@ -1,6 +1,6 @@
 # Week 11: Design Patterns
 
-**學習時間**：2026/01/12 - 2026/01/16（35 小時）
+**學習時間**：2026/01/12 - 2026/01/16（30 小時）
 
 ## 本週目標
 1. 複習常用設計模式（利用你的 8 年經驗）
@@ -156,6 +156,32 @@ class Context {
     }
 }
 ```
+
+---
+
+## 學習建議
+
+**註：** 本週開始前請先完成上週未完成的內容與複習
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-10 複習 + Design Patterns Videos (前 4 個)
+- 下午（3h）：Design Patterns Videos (4-8)
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：Design Patterns Videos (8-12)
+- 下午（3h）：Design Patterns Videos (12-16) + Coursera 課程開始
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：複習常用設計模式（Singleton, Factory, Strategy）
+- 下午（3h）：複習常用設計模式（Observer, Decorator, Adapter）
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：實作設計模式範例（Singleton, Factory, Observer）
+- 下午（3h）：實作設計模式範例（Strategy, Decorator）+ LeetCode Design × 1
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：LeetCode Design × 2
+- 下午（3h）：LeetCode Design × 2 + 本週複習
 
 ---
 

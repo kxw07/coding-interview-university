@@ -1,6 +1,6 @@
 # Week 04: Trees 基礎 + Binary Search Trees
 
-**學習時間**：2025/11/24 - 2025/11/28（35 小時）
+**學習時間**：2025/11/24 - 2025/11/28（30 小時）
 
 ## 本週目標
 1. 理解 Tree 的基本概念與遍歷方法
@@ -124,25 +124,27 @@
 
 ## 學習建議
 
-### Day 1 (Monday) - 7 小時
-- 上午（4h）：Trees Intro 影片（Intro to Trees, Tree Traversal, BFS & DFS）
-- 下午（3h）：Review 影片 + 練習手寫遍歷
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-03 複習 + 完成 Week-03 剩餘 LeetCode (Binary Search × 1, Bitwise × 1, 其他剩餘題目)
+- 下午（3h）：Trees Intro 影片（Intro to Trees, Tree Traversal）
 
-### Day 2 (Tuesday) - 7 小時
-- 上午（4h）：BST 理論影片（Review, Introduction, MIT）
-- 下午（3h）：BST C/C++ 實作影片（前 4 個）
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：Trees Intro 影片（BFS & DFS）+ Review 影片
+- 下午（3h）：練習手寫遍歷 + BST 理論影片（Review, Introduction）
 
-### Day 3 (Wednesday) - 7 小時
-- 上午（4h）：BST C/C++ 實作影片（後 6 個）
-- 下午（3h）：開始實作 BST - insert, get_node_count, print_values
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：BST 理論影片（MIT）+ BST C/C++ 實作影片（前 4 個）
+- 下午（3h）：BST C/C++ 實作影片（後 6 個：前 3 個）
 
-### Day 4 (Thursday) - 7 小時
-- 上午（4h）：實作 BST - delete_tree, is_in_tree, get_height, get_min, get_max
-- 下午（3h）：實作 BST - is_binary_search_tree, delete_value, get_successor
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：BST C/C++ 實作影片（後 6 個：後 3 個）+ 開始實作 BST - insert, get_node_count
+- 下午（3h）：實作 BST - print_values, delete_tree, is_in_tree
 
-### Day 5 (Friday) - 7 小時
-- 上午（4h）：完成 BST 測試 + LeetCode Traversal 題目 × 3
-- 下午（3h）：LeetCode Tree & BST 題目各 2-3 題 + 本週複習
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：實作 BST - get_height, get_min, get_max, is_binary_search_tree
+- 下午（3h）：實作 BST - delete_value, get_successor + 開始 BST 測試
+
+**註：** 完成 BST 測試、LeetCode Traversal 題目 × 3、LeetCode Tree & BST 題目各 2-3 題與本週複習移至 Week-05 開始進行
 
 ---
 

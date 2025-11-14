@@ -1,6 +1,6 @@
 # Week 14: Networking 與其他主題
 
-**學習時間**：2026/02/02 - 2026/02/06（35 小時）
+**學習時間**：2026/02/02 - 2026/02/06（30 小時）
 
 ## 本週目標
 1. 理解網路基礎知識
@@ -103,6 +103,32 @@ This section will have shorter videos that you can watch pretty quickly to revie
 - 更新履歷
 - 準備 Cover Letter
 - 開始投遞第二梯次公司（非 FAANG）
+
+---
+
+## 學習建議
+
+**註：** 本週開始前請先完成上週未完成的內容與複習
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-13 複習 + Networking 影片（Khan Academy, UDP/TCP）
+- 下午（3h）：Networking 影片（TCP/IP, OSI Model, Packet Transmission）
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：Networking 影片（HTTP, SSL/HTTPS, HTTP 2.0）
+- 下午（3h）：Networking 影片（Video Series, Subnetting, Sockets）
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：Final Review 影片（2-3 minutes short videos）
+- 下午（3h）：Final Review 影片（Michael Sambol videos）
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：Resume 更新 + LeetCode 綜合練習 × 2
+- 下午（3h）：面試技巧學習 + LeetCode × 2
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：LeetCode 綜合練習 × 3
+- 下午（3h）：模擬面試 × 1 + 本週總複習
 
 ---
 

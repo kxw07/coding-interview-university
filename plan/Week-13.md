@@ -1,6 +1,6 @@
 # Week 13: Testing, String Algorithms, Tries
 
-**學習時間**：2026/01/26 - 2026/01/30（35 小時）
+**學習時間**：2026/01/26 - 2026/01/30（30 小時）
 
 ## 本週目標
 1. 理解軟體測試的概念（利用你的經驗）
@@ -159,6 +159,32 @@ class Trie {
     }
 }
 ```
+
+---
+
+## 學習建議
+
+**註：** 本週開始前請先完成上週未完成的內容與複習
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-12 複習 + Testing 影片（如未完成）
+- 下午（3h）：String Searching 影片（Rabin-Karp, KMP）
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：Tries 理論影片
+- 下午（3h）：實作 Trie
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：完成 Trie 實作 + 測試
+- 下午（3h）：LeetCode String × 3
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：LeetCode Trie × 2
+- 下午（3h）：LeetCode 混合題目 × 3
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：LeetCode 混合題目 × 3
+- 下午（3h）：本週總複習
 
 ---
 

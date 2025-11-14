@@ -1,6 +1,6 @@
 # Week 07: Graphs 基礎
 
-**學習時間**：2025/12/15 - 2025/12/19（35 小時）
+**學習時間**：2025/12/15 - 2025/12/19（30 小時）
 
 ## 本週目標
 1. 理解圖的表示方法
@@ -95,24 +95,26 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 ## 學習建議
 
-### Day 1 (Monday) - 7 小時
-- 上午（4h）：MIT BFS & DFS + Skiena Lecture 10 & 11
+**註：** 本週開始前請先完成上週未完成的內容與複習
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：MIT BFS & DFS + Skiena Lecture 10 & 11
 - 下午（3h）：Skiena Lecture 12 (DFS) + 圖的表示方法筆記
 
-### Day 2 (Tuesday) - 7 小時
-- 上午（4h）：實作 DFS（Adjacency List: recursive & iterative）
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：實作 DFS（Adjacency List: recursive & iterative）
 - 下午（3h）：實作 DFS（Adjacency Matrix: recursive & iterative）
 
-### Day 3 (Wednesday) - 7 小時
-- 上午（4h）：實作 BFS（Adjacency List & Matrix）
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：實作 BFS（Adjacency List & Matrix）
 - 下午（3h）：實作 Cycle Detection & Topological Sort
 
-### Day 4 (Thursday) - 7 小時
-- 上午（4h）：Skiena Lecture 13 & 14 (MST)
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：Skiena Lecture 13 & 14 (MST)
 - 下午（3h）：6.006 Shortest Paths & Dijkstra
 
-### Day 5 (Friday) - 7 小時
-- 上午（4h）：LeetCode Graph Traversal × 3
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：LeetCode Graph Traversal × 3
 - 下午（3h）：LeetCode BFS/DFS 應用 × 3 + 本週複習
 
 ---

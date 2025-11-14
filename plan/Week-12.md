@@ -1,6 +1,6 @@
 # Week 12: 進階主題 - Combinatorics, NP-Complete, 系統知識
 
-**學習時間**：2026/01/19 - 2026/01/23（35 小時）
+**學習時間**：2026/01/19 - 2026/01/23（30 小時）
 
 ## 本週目標
 1. 理解組合數學與機率
@@ -113,6 +113,32 @@
 **時間分配**：4 小時
 
 本週重點複習之前的核心主題，每天完成 2-3 題
+
+---
+
+## 學習建議
+
+**註：** 本週開始前請先完成上週未完成的內容與複習
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-11 複習 + Combinatorics 影片
+- 下午（3h）：Probability 影片 + NP, NP-Complete 影片
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：Caches + Processes and Threads 影片
+- 下午（3h）：Testing 影片 + 開始投遞第二梯次公司履歷
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：Scheduling 影片 + LeetCode Math & Probability × 2
+- 下午（3h）：LeetCode Combinatorics × 2
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：系統知識複習（Caches, Processes, Threads）
+- 下午（3h）：LeetCode 混合題目 × 3
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：LeetCode 混合題目 × 3
+- 下午（3h）：本週總複習 + 準備第二梯次公司面試
 
 ---
 

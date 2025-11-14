@@ -1,6 +1,6 @@
 # Week 10: Dynamic Programming 深入
 
-**學習時間**：2026/01/05 - 2026/01/09（35 小時）
+**學習時間**：2026/01/05 - 2026/01/09（30 小時）
 
 ## 本週目標
 1. 掌握 DP 的各種模式
@@ -122,6 +122,32 @@ for (int len = 2; len <= n; len++) {
 
 ### Day 5 (Friday) - Hard DP & 複習
 完成 3 道 Hard DP + 複習本週所有題目
+
+---
+
+## 學習建議
+
+**註：** 本週開始前請先完成上週未完成的內容與複習
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-09 複習 + 剩餘 LeetCode 題目
+- 下午（3h）：複習上週 DP 影片 + Linear DP 題目 × 2
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：Linear DP 題目 × 3
+- 下午（3h）：2D DP 題目 × 3
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：2D DP 題目 × 3
+- 下午（3h）：Knapsack DP 題目 × 3
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：Knapsack DP 題目 × 1 + String DP 題目 × 2
+- 下午（3h）：String DP 題目 × 1 + Hard DP 題目 × 2
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：Hard DP 題目 × 1 + DP 模式總結
+- 下午（3h）：DP 空間優化技巧學習 + 本週複習
 
 ---
 
