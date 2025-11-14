@@ -558,12 +558,12 @@ https://github.com/jwasham/coding-interview-university
    - [ভিডিও](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
    - [স্লাইডস](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 -  [অ্যালগরিদম জটিলতা বিশ্লেষণের একটি নম্র ভূমিকা] (http://discrete.gr/complexity/)
--  [বৃদ্ধির অর্ডার (ভিডিও)] (https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
+-  [বৃদ্ধির অর্ডার (ভিডিও)] (https://www.coursera.org/learn/algorithmic-thinking-1/lecture/6PKkX/orders-of-growth)
 -  [অ্যাসিপটোটিকস (ভিডিও)] (https://www.coursera.org/lecture/algorithmic-চিন্তাধারার-1/asyptics-bXAtM)
 - [ ] [ইউসি বার্কলে বিগ ও (ভিডিও)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 - [ ] [ইউসি বার্কলে বিগ ওমেগা (ভিডিও)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
 - [ ]  [ইমোরটাইজড অ্যানালাইসিস (ভিডিও)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
--  [চিত্রিত "বিগ ও" (ভিডিও)] (https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
+-  [চিত্রিত "বিগ ও" (ভিডিও)] (https://www.coursera.org/learn/algorithmic-thinking-1/lecture/YVqzv/illustrating-big-o)
 -  [ ] টপকোডার (পুনরাবৃত্ত সম্পর্ক এবং মাস্টার উপপাদ্য অন্তর্ভুক্ত):
    - [গণনামূলক জটিলতা: বিভাগ 1] (https://www.topcoder.com/commune/competitive-pramramming/tutorials/computational-complexity-section-1/)
    - [গণনামূলক জটিলতা: বিভাগ 2] (https://www.topcoder.com / সম্প্রদায় / কমপিটিটিভ-প্রোগ্রামিং / টিউটোরিয়ালস / কমপিটেশনাল-কমপ্লিকটি-সেকশন ২/২)
@@ -679,9 +679,9 @@ https://github.com/jwasham/coding-interview-university
 - ### অ্যারে
     - [ ] অ্যারে সম্পর্কে:
     	- [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
-        - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (১৫ মিনিট ৩২ সেকেন্ড থেকে দেখা শুরু করুন)
-        - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
@@ -711,15 +711,15 @@ https://github.com/jwasham/coding-interview-university
  
 - ### লিঙ্কড লিস্ট
     - [ ] বিবরণ:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - পুরো ভিডিওটি নয়, নোড স্ট্রাকট এবং মেমরি বরাদ্দ সম্পর্কে কিছু অংশ
     - [ ] লিঙ্কড লিস্ট বনাম অ্যারে:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
@@ -741,7 +741,7 @@ https://github.com/jwasham/coding-interview-university
         - [ ] reverse() - reverses the list
         - [ ] remove_value(value) - এই মান দিয়ে তালিকার প্রথম আইটেমটি সরিয়ে দেয়
     - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - ইমপ্লিমেন্টের প্রয়োজন নাই।
  
 - ### স্ট্যাক
@@ -750,7 +750,7 @@ https://github.com/jwasham/coding-interview-university
    - ] বাস্তবায়ন করবে না। অ্যারের সাথে প্রয়োগ করা তুচ্ছ।
  
 - ### কিউ
-   -  [সারি (ভিডিও)] (https://www.coursera.org/lecture/data-structures/queues-EShpq)
+   -  [সারি (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/EShpq/queues)
    -  [বিজ্ঞপ্তি বাফার / ফিফো] (https://en.wikedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
    -  লেজ পয়েন্টার সহ লিঙ্কযুক্ত-তালিকা ব্যবহার করে প্রয়োগ করুন:
@@ -1097,7 +1097,7 @@ https://github.com/jwasham/coding-interview-university
    - যখন এটি ব্যবহার করা উপযুক্ত হবে
    - টেল রিকার্সন এর চেয়ে ভাল কীভাবে?
        -  [লেজ পুনরাবৃত্তি কি এটি এত খারাপ কেন?] (Https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-       -  [টেল রিকার্সন (ভিডিও)] (https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+       -  [টেল রিকার্সন (ভিডিও)] (https://www.coursera.org/learn/programming-languages/lecture/YZic1/tail-recursion)
  
 - ###  ডায়নামিক প্রোগ্রামিং
    - আপনি সম্ভবত আপনার সাক্ষাত্কারে কোনও গতিশীল প্রোগ্রামিং সমস্যা দেখতে পাবেন না, তবে ডায়নামিক প্রোগ্রামিংয়ের প্রার্থী হিসাবে কোনও সমস্যাটি স্বীকৃতি দেওয়ার পক্ষে এটি মূল্যবান।

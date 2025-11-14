@@ -486,12 +486,12 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
     - [វីដេអូ](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ស្លាយ](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 - [ ] [ការណែនាំមួយចំពោះការវិភាគស្មុគស្មាញនៃគណិតវិទ្យា](http://discrete.gr/complexity/)
-- [ ] [លំដាប់នៃការលូតលាស់ (វីដេអូ)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
-- [ ] [ការវិភាគអាមីស្តូតូទិក (Amortized) (វីដេអូ)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
+- [ ] [លំដាប់នៃការលូតលាស់ (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-1/lecture/6PKkX/orders-of-growth)
+- [ ] [ការវិភាគអាមីស្តូតូទិក (Amortized) (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-1/lecture/bXAtM/asymptotics)
 - [ ] [UC Berkeley Big O (មានវីដេអូ)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 - [ ] [UC Berkeley Big Omega (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
 - [ ] [ការវិភាគរំលោះ (Amortized) (វីដេអូ)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [បង្ហាញរូបភាព "Big-O" (វីដេអូ)](https://www.coursera.org/lecture/alacticmic-thinking-1/illustrating-big-o-YVqzv)
+- [ ] [បង្ហាញរូបភាព "Big-O" (វីដេអូ)](https://www.coursera.org/learn/alacticmic-thinking-1/lecture/YVqzv/illustrating-big-o)
 - [ ] TopCoder (រួមបញ្ចូលទាំងទំនាក់ទំនងកើតឡើងវិញនិងទ្រឹស្តីបទមេ)៖
     - [ភាពស្មុគស្មាញនៃការគណនា៖ ផ្នែកទី ១](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [ភាពស្មុគស្មាញនៃការគណនា៖ ផ្នែកទី ២](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
@@ -581,7 +581,7 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
     - [ ] នឹងមិនអនុវត្តទេ។ ការអនុវត្តជាមួយ Array គឺមិនសំខាន់។
 
 - ### Queue
-    - [ ] [Queue (វីដេអូ)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [ ] [Queue (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queues)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] ប្រើ linked-list ដែលមានភ្ជាប់ជាមួយទ្រនិចនៅកន្ទុយ៖
@@ -916,7 +916,7 @@ Graphs អាចត្រូវបានប្រើដើម្បីបង្�
     - នៅពេលដែលសមរម្យដើម្បីប្រើវា
     - តេី tail recursion ប្រសើរជាងអត់?
         - [ ] [អ្វីជា Tail Recursion និង ហេតុអ្វីបានជាវាអាក្រក់?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (វីដេអូ)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+        - [ ] [Tail Recursion (វីដេអូ)](https://www.coursera.org/learn/programming-languages/lecture/YZic1/tail-recursion)
 
 - ### Dynamic Programming
     - អ្នកប្រហែលជាមិនឃើញមានបញ្ហានៃការសរសេរកម្មវិធី dynamic programming នៅក្នុងបទសម្ភាសន៍របស់អ្នកទេ ប៉ុន្តែវាសមនឹងទទួលបានការទទួលស្គាល់នូវបញ្ហាមួយក្នុងនាមជាបេក្ខជនសម្រាប់ការសរសេរកម្មវិធី dynamic programming។

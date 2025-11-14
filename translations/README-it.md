@@ -579,9 +579,9 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
 
 - ### Arrays
     - [ ] Riguardo gli Arrays:
-        - [Arrays (Video in Inglese)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [Arrays (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UC Berkeley CS61B - Arrays Lineari e Multi-Dimensionali (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Comincia il video da 15m 32s)
-        - [Arrays Dinamici (Video in Inglese)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [Arrays Dinamici (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Matrici Irregolari o Jagged Arrays (Video in Inglese)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implementare un vettore (array mutabile con grandezza automatica):
         - [ ] Programma usando arrays, puntatori e l'aritmetica dei puntatori per raggiungere un index, piuttosto che usare l'indexing.
@@ -611,15 +611,15 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
 
 - ### Linked Lists
     - [ ] Descrizione:
-        - [ ] [Liste Linkate Singolarmente (Video in Inglese)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        - [ ] [Liste Linkate Singolarmente (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists 1 (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (Video in Inglese)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - non il video intero, ma solo nozioni sulla struttura del nodo e l'allocazione della memoria
     - [ ] Linked List vs Arrays:
-        - [Core Linked Lists Vs Arrays (Video in Inglese)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
-        - [Nel Mondo Reale, Linked Lists Vs Arrays (Video in Inglese)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+        - [Core Linked Lists Vs Arrays (Video in Inglese)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [Nel Mondo Reale, Linked Lists Vs Arrays (Video in Inglese)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [Perché dovresti evitare le Linked Lists (Video in Inglese)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Ti aiuto un po': hai bisogno della conoscenza riguardo puntatori di puntatori:
         (per quando passi un puntatore ad una funzione che potrebbe cambiare l'indirizzo a cui il puntatore punta)
@@ -642,16 +642,16 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
         - [ ] reverse() - reversa la lista
         - [ ] remove_value(value) - rimuove il primo elemento nella lista avente il valore dato
     - [ ] Liste Linkate Doppiamente
-        - [Descrizione (Video in Inglese)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+        - [Descrizione (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - Non c'è bisogno di implementarle
 
 - ### Stack
-    - [ ] [Stacks (Video in Inglese)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [ ] [Stacks (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] Non saranno implementati. Esercitarsi con l'array è quasi banale.
 
 - ### Queue
-    - [ ] [Queue (Video in Inglese)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [ ] [Queue (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queues)
     - [ ] [Buffer Circolare/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] Implementazione usando le linked list, con puntatore alla coda:
@@ -682,12 +682,12 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
         - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
     - [ ] Corsi Online:
-        - [ ] [Core Hash Tables (Video in Inglese)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+        - [ ] [Core Hash Tables (Video in Inglese)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Strutture Dati (Video in Inglese)](https://www.coursera.org/learn/data-structures/home/week/4)
-        - [ ] [Problemi con gli Elenchi Telefonici (Video in Inglese)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+        - [ ] [Problemi con gli Elenchi Telefonici (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
         - [ ] hash tables distribuite:
-            - [Uploads Istantanei e Ottimizzazione dello Storage Su Dropbox (Video in Inglese)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
-            - [Hash Tables Distribuite (Video in Inglese)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
+            - [Uploads Istantanei e Ottimizzazione dello Storage Su Dropbox (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+            - [Hash Tables Distribuite (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
     - [ ] Implementazione con gli array usando il sondaggio (probing) lineare
         - hash(k, m) - m è la grandezza dell'hash table
@@ -738,7 +738,7 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
 ## Alberi (Trees)
 
 - ### Alberi - Appunti & Background
-    - [ ] [Playlist: Alberi (Video in Inglese)](https://www.coursera.org/lecture/data-structures/trees-95qda)
+    - [ ] [Playlist: Alberi (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - costruzione basica di un albero
     - traversale
     - algoritmi per la manipolazione
@@ -792,7 +792,7 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
 - ### Heap / Coda di Priorita' / Heap Binario
     - visualizzato come un albero, ma è lineare nell'allocazione (array o linked list)
     - [ ] [Heap (Articolo in Inglese)](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Introduzione (Video in Inglese)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] [Introduzione (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] [Implementazione Ingenua (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
     - [ ] [Alberi Binari (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
     - [ ] [Osservazione sull'Altezza Degli Alberi (Video in Inglese)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
@@ -800,8 +800,8 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
     - [ ] [Alberi Binari Completi (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
     - [ ] [Pseudocodice (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
     - [ ] [Ordinamento Heap - consigli per iniziare (Video in Inglese)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [Ordinamento Heap (Video in Inglese)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
-    - [ ] [Costruire un heap (Video in Inglese)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
+    - [ ] [Ordinamento Heap (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
+    - [ ] [Costruire un heap (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
     - [ ] [MIT: Heaps e Ordinamento Heap (Video in Inglese)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lezione 24: Code di Priorità (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Costruire un Heap (max-heap) (Video in Inglese)](https://www.youtube.com/watch?v=MiyLo8adrWw)
@@ -835,17 +835,17 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
 - Per l'heapsort, leggi la struttura degli Heap sopra. Heap sort non è stabile, ma funziona bene
 
 - [ ] [Sedgewick - Mergesort (5 video, in Inglese)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] [1. Mergesort](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+    - [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
     - [ ] [2. Mergesort Dal Basso](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
-    - [ ] [3. Complessità dell'Ordinamento](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
-    - [ ] [4. Comparatori](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+    - [ ] [3. Complessità dell'Ordinamento](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
+    - [ ] [4. Comparatori](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
     - [ ] [5. Stabilità](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
 
 - [ ] [Sedgewick - Quicksort (4 video)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-    - [ ] [2. Selezione](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
-    - [ ] [3. Chiavi Duplicate](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
-    - [ ] [4. Metodi di Ordinamento del Sistema](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
+    - [ ] [2. Selezione](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
+    - [ ] [3. Chiavi Duplicate](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
+    - [ ] [4. Metodi di Ordinamento del Sistema](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
 
 - [ ] UC Berkeley:
     - [ ] [CS 61B Lezione 29: Sorting I (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
@@ -887,10 +887,10 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
 - [ ] Not required, but I recommended them:
     - [ ] [Sedgewick - Radix Sorts (6 video)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
         - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-        - [ ] [2. Key Indexed Counting](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+        - [ ] [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
         - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
         - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-        - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+        - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
         - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Radix Sort (Video in Inglese)](https://www.youtube.com/watch?v=xhr26ia4k38)
@@ -973,7 +973,7 @@ I grafi possono essere usati per rappresentare molti problemi in informatica, pe
     - Quando è appropriato usarla?
     - Perché la ricorsione in coda è migliore?
         - [ ] [Cos'è la ricorsione in coda e perché fa schifo? (Articolo in Inglese)](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Ricorsione in Coda (Video in Inglese)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+        - [ ] [Ricorsione in Coda (Video in Inglese)](https://www.coursera.org/learn/programming-languages/lecture/YZic1/tail-recursion)
     - [ ] [5 Semplici Step per risolvere Qualsiasi Problema di Ricorsione (Video in Inglese)](https://youtu.be/ngCos392W4w)
 
 	Backtracking Cheat-Sheet: [Java (Articolo in Inglese)](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning))
@@ -998,11 +998,11 @@ I grafi possono essere usati per rappresentare molti problemi in informatica, pe
         - [ ] [Programmazione Dinamica](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
         - [ ] [Il problema della struttura secondaria dell'RNA (Video in Inglese)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [Un algoritmo di Programmazione Dinamica (Video in Inglese)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
-        - [ ] [Illustrare l'algoritmo di DP (Video in Inglese)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+        - [ ] [Un algoritmo di Programmazione Dinamica (Video in Inglese)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
+        - [ ] [Illustrare l'algoritmo di DP (Video in Inglese)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
         - [ ] [Tempo di esecuzioone di un algoritmo di DP (Video in Inglese)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
         - [ ] [DP vs. implementazione della ricorsione (Video in Inglese)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] [Pairwise Sequence Alignment Globale (Video in Inglese)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+        - [ ] [Pairwise Sequence Alignment Globale (Video in Inglese)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
         - [ ] [Pairwise Sequence Alignment Locale (Video in Inglese)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
 - ### Schemi Progettuali
@@ -1134,11 +1134,11 @@ I grafi possono essere usati per rappresentare molti problemi in informatica, pe
 - ### Ricerca Tramite Pattern-Matching e Manipolazione delle Stringhe
     - [ ] [Sedgewick - Suffix Arrays (Video in Inglese)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick - Substring Search (video)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. Introduction to Substring Search](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
+        - [ ] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
         - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
         - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
         - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-        - [ ] [5. Rabin-Karp](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+        - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
     - [ ] [Search pattern in text (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
     If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects).
@@ -1867,7 +1867,7 @@ You're never really done.
 
 - **String Matching**
     - Rabin-Karp (video):
-        - [Rabin Karps Algorithm](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+        - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
         - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
         - [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
         - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)

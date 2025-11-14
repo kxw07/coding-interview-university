@@ -566,9 +566,9 @@ Microsoft.
     
 - [ ] Про масиви:
     - Масиви CS50 Гарвардського університету [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
-    - Масиви (відео) [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+    - Масиви (відео) [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
     - Лінійні та багатовимірні масиви (відео) [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-    - Динамічні масиви (відео) [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+    - Динамічні масиви (відео) [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
     - Нерівні масиви (відео) [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
 
 - [ ] Реалізувати вектор (змінний масив з автоматичною зміною розміру):
@@ -601,15 +601,15 @@ Microsoft.
 
 - [ ] Опис:
     - [ ] Зв'язані списки CS50 Гарвардський університет [Linked Lists CS50 Harvard University](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - це розвиває інтуїцію.
-    - [ ] Однозв'язні списки (відео) [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+    - [ ] Однозв'язні списки (відео) [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
     - [ ] CS 61B - Зв'язані списки 1 (відео) [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
     - [ ] CS 61B - Зв'язані списки 2 (відео) [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [[Огляд] Зв'язані списки за 4 хвилини (відео)](https://youtu.be/F8AbOfQwl1c)
 - [ ] C Code (відео) [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
         - не все відео, лише фрагменти про Node struct та виділення пам'яті
 - [ ] Звʼязані списки vs масиви:
-    - Основне про зв'язані списки проти масивів (відео) [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
-    - У реальному світі зв'язані списки проти масивів (відео) [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+    - Основне про зв'язані списки проти масивів (відео) [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+    - У реальному світі зв'язані списки проти масивів (відео) [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
 - [ ] Чому слід уникати зв'язаних списків (відео) [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
 - [ ] Пастка: вам потрібні знання про вказівник на вказівник:
     (на випадок, якщо ви передаєте вказівник у функцію, яка може змінити адресу, на яку вказує цей вказівник)
@@ -631,7 +631,7 @@ Microsoft.
     - [ ] reverse() - реверсує список
     - [ ] remove_value(value) - видаляє перший елемент списку з цим значенням
 - [ ] Подвійно зв'язаний список
-    - Опис (відео) [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+    - Опис (відео) [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
     - Не потрібно реалізовувати
 
 - ### Стек
@@ -725,8 +725,8 @@ Microsoft.
 ## Дерева
 
 - ### Дерева - Вступ
-    - [ ] Введення до Дерев (відео) [Intro to Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
-    - [ ] Обхід дерев (відео) [Tree Traversal (video)](https://www.coursera.org/lecture/data-structures/tree-traversal-fr51b)
+    - [ ] Введення до Дерев (відео) [Intro to Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+    - [ ] Обхід дерев (відео) [Tree Traversal (video)](https://www.coursera.org/learn/data-structures/lecture/fr51b/tree-traversal)
     - [ ] BFS (пошук в ширину) та DFS (пошук в глибину) (відео) [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
         - Нотатки про BFS:
            - порядок рівнів (BFS, з використанням черги)
@@ -777,15 +777,15 @@ Microsoft.
 
     - візуалізується у вигляді дерева, але зазвичай є лінійною у сховищі (масив, зв'язаний список)
     - [ ] Купа [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] Вступ (відео) [Introduction (video)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] Вступ (відео) [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] Бінарні дерева (відео) [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
     - [ ] Зауваження щодо висоти дерева (відео) [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
     - [ ] Основні операції (відео) [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
     - [ ] Повні бінарні дерева (відео) [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
     - [ ] Псевдокод (відео) [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
     - [ ] Сортування купою - переходи до початку (відео) [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] Сортування купою (відео) [Heap Sort (video)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
-    - [ ] Створення купи (відео) [Building a heap (video)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
+    - [ ] Сортування купою (відео) [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
+    - [ ] Створення купи (відео) [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
     - [ ] MIT: Купи та сортування купою (відео) [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] CS 61B Лекція 24: Черги пріоритетів (відео) [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
@@ -819,17 +819,17 @@ Microsoft.
 - Про сортування купою (heapsort) дивіться структуру даних Heap вище. Сортування купою - це чудово, але не стабільно
 
 - [ ] Седжвік - Сортування злиттям (5 відео) [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] Сортування злиттям [1. Mergesort](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+    - [ ] Сортування злиттям [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
     - [ ] 2. Висхідний Mergesort [2. Bottom-up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
-    - [ ] 3. Складність сортування [3. Sorting Complexity](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
-    - [ ] 4. Компаратори [4. Comparators](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+    - [ ] 3. Складність сортування [3. Sorting Complexity](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
+    - [ ] 4. Компаратори [4. Comparators](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
     - [ ] 5. Стабільність [5. Stability](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
 
 - [ ] Седжвік - Сортування злиттям (5 відео) [Sedgewick - Quicksort (4 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] Швидке сортування [1. Quicksort](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
-    - [ ] Вибір [2. Selection](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
-    - [ ] Повторні ключі [3. Duplicate Keys](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
-    - [ ] Системні сортування [4. System Sorts](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
+    - [ ] Швидке сортування [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
+    - [ ] Вибір [2. Selection](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
+    - [ ] Повторні ключі [3. Duplicate Keys](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
+    - [ ] Системні сортування [4. System Sorts](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
 
 - [ ] Університет Каліфорнії (Берклі) (UC Berkeley):
     - [ ] CS 61B Лекція 29: Сортування I (відео) [CS 61B Lecture 29: Sorting I (video)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
@@ -872,10 +872,10 @@ Microsoft.
 - [ ] Не обов'язково, але я рекомендую їх:
     - [ ] Седжвік - Радікс-сортування (6 відео) [Sedgewick - Radix Sorts (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
         - [ ] 1. Рядки в Java [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-        - [ ] 2. Індексований підрахунок ключів [2. Key Indexed Counting](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+        - [ ] 2. Індексований підрахунок ключів [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
         - [ ] 3. Сортування за розрядами за найменш значущою цифрою першого рядка [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
         - [ ] 3. Сортування за розрядами за найбільш значущою цифрою першого рядка [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-        - [ ] 5. 3-бічне cортування за розрядами [5. 3 Way Radix Quicksort](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+        - [ ] 5. 3-бічне cортування за розрядами [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
         - [ ] 6. Масиви суфіксів [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] Сортування за розрядами [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] Сортування за розрядами (відео) [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
@@ -958,7 +958,7 @@ Microsoft.
     - Коли доцільно її використовувати?
     - Чим хвостова рекурсія краща ніж ніякої?
         - [ ] Що таке хвостова рекурсія і чому вона така погана? [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] Хвостова рекурсія (відео) [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+        - [ ] Хвостова рекурсія (відео) [Tail Recursion (video)](https://www.coursera.org/learn/programming-languages/lecture/YZic1/tail-recursion)
     - [ ] 5 простих кроків для вирішення будь-якої рекурсивної задачі (відео) [5 Simple Steps for Solving Any Recursive Problem(video)](https://youtu.be/ngCos392W4w)
 
 	Схема зворотного відстеження: 
@@ -987,11 +987,11 @@ Microsoft.
         - [ ] Динамічне програмування [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
         - [ ] Проблема вторинної структури РНК (відео) [The RNA secondary structure problem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] Алгоритм динамічного програмування (відео) [A dynamic programming algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
-        - [ ] Ілюстрація алгоритму ДП (відео) [Illustrating the DP algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+        - [ ] Алгоритм динамічного програмування (відео) [A dynamic programming algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
+        - [ ] Ілюстрація алгоритму ДП (відео) [Illustrating the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
         - [ ] Час роботи алгоритму DP (відео) [Running time of the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
         - [ ] DP проти рекурсивної реалізації (відео) [DP vs. recursive implementation (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] Глобальне попарне вирівнювання послідовностей (відео) [Global pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+        - [ ] Глобальне попарне вирівнювання послідовностей (відео) [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
         - [ ] Локальне попарне вирівнювання послідовностей (відео) [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
 - ### Шаблони проектування

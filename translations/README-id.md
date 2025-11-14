@@ -425,12 +425,12 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
     - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [slide](https://archive.org/details/lecture2_202008)
 - [ ] [Pengantar Lembut untuk Analisis Kompleksitas Algoritma](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
-- [ ] [Asimtotik (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
+- [ ] [Orders of Growth (video)](https://www.coursera.org/learn/algorithmic-thinking-1/lecture/6PKkX/orders-of-growth)
+- [ ] [Asimtotik (video)](https://www.coursera.org/learn/algorithmic-thinking-1/lecture/bXAtM/asymptotics)
 - [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 - [ ] [UC Berkeley Big Omega (video)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
 - [ ] [Analisis Amortisasi (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Mengilustrasikan "Big O" (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
+- [ ] [Mengilustrasikan "Big O" (video)](https://www.coursera.org/learn/algorithmic-thinking-1/lecture/YVqzv/illustrating-big-o)
 - [ ] TopCoder (includes recurrence relations and master theorem):
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
@@ -442,9 +442,9 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
 - ### Arrays
     - Menerapkan vektor yang mengubah ukuran secara otomatis.
     - [ ] Deskripsi:
-        - [Array (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [Array (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UC Berkeley CS61B - Array Linear dan Multi-Dim (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Mulailah menonton dari 15m 32s)
-        - [Array Dinamis (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [Array Dinamis (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Array Bergerigi (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Menerapkan vektor (array yang bisa berubah dengan ukuran otomatis):
         - [ ] Berlatih coding menggunakan array dan pointer, dan matematika pointer untuk melompat ke indeks daripada menggunakan pengindeksan.
@@ -474,15 +474,15 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
 
 - ### Linked Lists
     - [ ] Deskripsi:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [Kode C (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - bukan keseluruhan video, hanya bagian tentang struct Node dan alokasi memori
     - [ ] Linked List vs Array:
-        - [Daftar Linked List Vs Array (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
-        - [Di Dunia Nyata Linked List Vs Array (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+        - [Daftar Linked List Vs Array (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [Di Dunia Nyata Linked List Vs Array (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [mengapa Anda harus menghindari linked list (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Gotcha: Anda perlu pengetahuan pointer ke pointer:
         (untuk saat Anda meneruskan pointer ke fungsi yang dapat mengubah alamat tempat pointer itu menunjuk)
@@ -504,17 +504,17 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
         - [ ] reverse() - membalikkan daftar
         - [ ] remove_value(value) - menghapus item pertama dalam daftar dengan nilai ini
     - [ ] Doubly-linked List
-        - [Deskripsi (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+        - [Deskripsi (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - Tidak perlu diimplementasikan
 
 - ### Stack
-    - [ ] [Stack (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [ ] [Stack (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] Tidak akan diterapkan. Implementasi dengan array itu sepele
 
 - ### Queue
     - Queue (Antrean)
-    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queues)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] Implementasikan menggunakan linked-list, dengan tail pointer:
@@ -545,12 +545,12 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
         - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
     - [ ] Kursus Online:
-        - [ ] [Tabel Hash Inti (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+        - [ ] [Tabel Hash Inti (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Struktur Data (video)](https://www.coursera.org/learn/data-structures/home/week/4)
-        - [ ] [Masalah Buku Telepon (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+        - [ ] [Masalah Buku Telepon (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
         - [ ] tabel hash terdistribusi:
-            - [Unggahan Instan dan Pengoptimalan Penyimpanan Di Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
-            - [Tabel Hash Terdistribusi (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
+            - [Unggahan Instan dan Pengoptimalan Penyimpanan Di Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+            - [Tabel Hash Terdistribusi (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
     - [ ] Implementasikan dengan array menggunakan probing linier
         - hash(k, m) - m adalah ukuran tabel hash
@@ -600,7 +600,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
 ## Trees
 
 - ### Trees - Catatan & Latar Belakang
-    - [ ] [Seri: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
+    - [ ] [Seri: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - konstruksi pohon dasar
     - traversal
     - algoritma manipulasi
@@ -841,7 +841,7 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
     - Kapan saat yang tepat untuk menggunakannya?
     - Bagaimana rekursi ekor lebih baik daripada tidak?
         - [ ] [Apa Itu Rekursi Ekor Mengapa Sangat Buruk?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Rekursi Ekor (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+        - [ ] [Rekursi Ekor (video)](https://www.coursera.org/learn/programming-languages/lecture/YZic1/tail-recursion)
 
 - ### Pemrograman Dinamis
     - Anda mungkin tidak akan melihat masalah pemrograman dinamis dalam wawancara Anda, tetapi ada baiknya mengenali masalah sebagai kandidat untuk pemrograman dinamis (Dynamic Programming).

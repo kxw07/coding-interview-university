@@ -485,9 +485,9 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 - ### 配列
 	- [ ] 配列について:
 		- [アレイ CS50 ハーバード大学](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
-			- [配列 (動画)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+			- [配列 (動画)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
 			- [UC Berkeley CS61B - Linear and Multi-Dim Arrays (動画) (15 分 32 秒から視聴開始)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-			- [動的配列 (動画)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+			- [動的配列 (動画)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
 			- [ギザギザ配列 (動画)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
 	- [ ] ベクトルを実装します (自動サイズ変更を備えた可変配列):
 		- [ ] 配列とポインターを使用したコーディングと、インデックスを使用する代わりにインデックスにジャンプするポインターの計算を練習します。
@@ -642,8 +642,8 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 ## ツリー
 
 - ### ツリーとは
-	- [ ] [ツリーの紹介 (動画)](https://www.coursera.org/lecture/data-structures/trees-95qda)
-	- [ ] [ツリートラバーサル (動画)](https://www.coursera.org/lecture/data-structures/tree-traversal-fr51b)
+	- [ ] [ツリーの紹介 (動画)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+	- [ ] [ツリートラバーサル (動画)](https://www.coursera.org/learn/data-structures/lecture/fr51b/tree-traversal)
 	- [ ] [BFS (幅優先検索) および DFS (深さ優先検索) (動画)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
 		- BFS のメモ:
 			- レベル順序 (BFS、キューを使用)
@@ -737,17 +737,17 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 - ヒープソートについては、上記のヒープデータ構造を参照してください。ヒープソートは素晴らしいですが、安定していません。
 
 - [ ] [セッジウィック - マージソート (5動画)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-	- [ ] [1. マージソート](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+	- [ ] [1. マージソート](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
 	- [ ] [2. ボトムアップ マージソート](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
-	- [ ] [3. 並べ替えの複雑さ](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
-	- [ ] [4. コンパレーター](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+	- [ ] [3. 並べ替えの複雑さ](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
+	- [ ] [4. コンパレーター](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
 	- [ ] [5. 安定性](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
 
 - [ ] [セッジウィック - クイックソート (4動画)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-	- [ ] [1. クイックソート](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
-	- [ ] [2. セレクション](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
-	- [ ] [3. 重複キー](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
-	- [ ] [4. システムソート](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
+	- [ ] [1. クイックソート](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
+	- [ ] [2. セレクション](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
+	- [ ] [3. 重複キー](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
+	- [ ] [4. システムソート](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
 
 - [ ] カリフォルニア大学バークレー校:
 	- [ ] [CS 61B 講義 29: 並べ替え I (動画)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
@@ -792,10 +792,10 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 - [ ] 必須ではありませんが、お勧めします:
 	- [ ] [Sedgewick - 基数ソート (6動画)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
 		- [ ] [1. Java の文字列](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-		- [ ] [2. キーのインデックス付きカウント](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+		- [ ] [2. キーのインデックス付きカウント](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
 		- [ ] [3. 最下位桁の最初の文字列基数ソート](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
 		- [ ] [4. 最上位桁の最初の文字列基数ソート](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-		- [ ] [5. 3 ウェイ基数クイックソート](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+		- [ ] [5. 3 ウェイ基数クイックソート](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
 		- [ ] [6. サフィックス配列](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
 	- [ ] [基数ソート](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
 	- [ ] [基数ソート (動画)](https://www.youtube.com/watch?v=xhr26ia4k38)
@@ -878,7 +878,7 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 	- いつ使用するのが適切ですか?
 	- 末尾再帰をしない場合と比べて、どのような点が優れているのでしょうか?
 		- [ ] [末尾再帰とは何ですか、なぜそれほど悪いのですか?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-		- [ ] [末尾再帰 (動画)](https://www.coursera.org/lecture/programming-langages/tail-recursion-YZic1)
+		- [ ] [末尾再帰 (動画)](https://www.coursera.org/learn/programming-langages/lecture/YZic1/tail-recursion)
 	- [ ] [再帰的問題を解決するための 5 つの簡単なステップ (動画)](https://youtu.be/ngCos392W4w)
 	バックトラッキング ブループリント: [Java](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-回文分割)) [Python](https://leetcode.com/problems/combination-sum/discuss/429538/General-Backtracking-questions-solutions-in-Python-for-reference-%3A)
 
@@ -1036,11 +1036,11 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 - ### 文字列の検索と操作
 	- [ ] [Sedgewick - サフィックス配列 (動画)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
 	- [ ] [Sedgewick - 部分文字列検索 (動画)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-		- [ ] [1. 部分文字列検索の概要](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
+		- [ ] [1. 部分文字列検索の概要](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
 		- [ ] [2. ブルートフォース部分文字列検索](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
 		- [ ] [3. クヌース・モリス・プラット](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
 		- [ ] [4. ボイヤー・ムーア](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-		- [ ] [5. ラビン・カープ](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+		- [ ] [5. ラビン・カープ](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
 	- [ ] [テキスト内のパターンの検索 (動画)](https://www.coursera.org/learn/data-Structures/lecture/tAfHI/search-pattern-in-text)
 
 	この件についてさらに詳細が必要な場合は、[一部の件名に関する追加の詳細](#Additional-detail-on-some-subjects) の「文字列マッチング」セクションを参照してください。

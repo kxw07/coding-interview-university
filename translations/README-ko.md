@@ -602,7 +602,7 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
   - [ ] Will not implement. Implementing with array is trivial.
 
 - ### 큐
-  - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+  - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queues)
   - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)05_04-priorityQueuesAndDeques.mp4)
   - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
   - [ ] tail 포인터가 있는 연결 리스트를 사용하여 구현하기:
@@ -925,7 +925,7 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
   - 재귀는 언제 사용해야 하는 지
   - 꼬리 재귀를 사용하는 게 그렇지 않은 것보다 얼마나 나은가요?
     - [ ] [꼬리 재귀가 무엇이고 왜 그게 좋지 않은지에 대하여](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-    - [ ] [꼬리 재귀 (영상)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+    - [ ] [꼬리 재귀 (영상)](https://www.coursera.org/learn/programming-languages/lecture/YZic1/tail-recursion)
 
 - ### 동적 프로그래밍 (Dynamic Programming)
   - 인터뷰에서 DP 문제를 접하지 않을 수도 있습니다. 하지만 알고 있는게 미뤄두는 것 보다 낫습니다.

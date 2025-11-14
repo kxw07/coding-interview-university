@@ -947,12 +947,12 @@ osı kwrs üşin tañdağan tildegi derekter qurılımı nemese algorïtm.
         - [ ] [(Жетілдірілген) Керемет хэштеу (бейне)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
     - [ ] Онлайн курстар:
-        - [ ] [Негізгі хэш кестелері (бейне)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+        - [ ] [Негізгі хэш кестелері (бейне)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Дерек құрылымдары (бейне)](https://www.coursera.org/learn/data-structures/home/week/4)
-        - [ ] [Телефон кітапшасының мәселесі (бейне)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+        - [ ] [Телефон кітапшасының мәселесі (бейне)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
         - [ ] таратылған хэш кестелері:
-            - [Dropbox жүйесінде жылдам жүктеп салулар және жадты оңтайландыру (бейне)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
-            - [Таратылған хэш кестелері (бейне)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
+            - [Dropbox жүйесінде жылдам жүктеп салулар және жадты оңтайландыру (бейне)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+            - [Таратылған хэш кестелері (бейне)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
     - [ ] Сызықтық зондтау арқылы массивпен орындаңыз
         - хэш(k, m) - m хэш кестесінің өлшемі
@@ -971,12 +971,12 @@ osı kwrs üşin tañdağan tildegi derekter qurılımı nemese algorïtm.
  - [ ] [(Jetildirilgen) Keremet xéştew (beyne)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
  - [ ] Onlayn kwrstar:
- - [ ] [Negizgi xéş kesteleri (beyne)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+ - [ ] [Negizgi xéş kesteleri (beyne)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
  - [ ] [Derek qurılımdarı (beyne)](https://www.coursera.org/learn/data-structures/home/week/4)
- - [ ] [Telefon kitapşasınıñ mäselesi (beyne)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+ - [ ] [Telefon kitapşasınıñ mäselesi (beyne)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
  - [ ] taratılğan xéş kesteleri:
- - [Dropbox jüyesinde jıldam jüktep salwlar jäne jadtı oñtaylandırw (beyne)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
- - [Taratılğan xéş kesteleri (beyne)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
+ - [Dropbox jüyesinde jıldam jüktep salwlar jäne jadtı oñtaylandırw (beyne)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+ - [Taratılğan xéş kesteleri (beyne)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
  - [ ] Sızıqtıq zondtaw arqılı massïvpen orındañız
  - xéş(k, m) - m xéş kestesiniñ ölşemi

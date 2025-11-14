@@ -41,8 +41,8 @@
 
 #### 理論影片（8 小時）
 
-- [ ] [Intro to Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
-- [ ] [Tree Traversal (video)](https://www.coursera.org/lecture/data-structures/tree-traversal-fr51b)
+- [ ] [Intro to Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+- [ ] [Tree Traversal (video)](https://www.coursera.org/learn/data-structures/lecture/fr51b/tree-traversal)
 - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
     - **BFS notes**:
        - level order (BFS, using queue)

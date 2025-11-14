@@ -464,12 +464,12 @@
     - [影片](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [投影片](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 - [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
-- [ ] [Asymptotics (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
+- [ ] [Orders of Growth (video)](https://www.coursera.org/learn/algorithmic-thinking-1/lecture/6PKkX/orders-of-growth)
+- [ ] [Asymptotics (video)](https://www.coursera.org/learn/algorithmic-thinking-1/lecture/bXAtM/asymptotics)
 - [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 - [ ] [UC Berkeley Big Omega (video)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
 - [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Illustrating "Big O" (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
+- [ ] [Illustrating "Big O" (video)](https://www.coursera.org/learn/algorithmic-thinking-1/lecture/YVqzv/illustrating-big-o)
 - [ ] TopCoder (includes recurrence relations and master theorem):
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
@@ -555,7 +555,7 @@
 
 - ### Queue(佇列)
     - [ ] [使用Queues(先進先出)First-In First-Out(影片)]()
-    - [ ] [Queue(影片)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [ ] [Queue(影片)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queues)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [Priority Queues(影片)]()
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
@@ -873,7 +873,7 @@
     - 什麼時候適合用這些
     - tail recursion沒有比較好?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (影片)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+        - [ ] [Tail Recursion (影片)](https://www.coursera.org/learn/programming-languages/lecture/YZic1/tail-recursion)
 
 - ### 動態規劃
     - 在你的面試中或許沒有任何動態規劃的問題，但能夠知道一個題目可以使用動態規劃來解決是很重要的。

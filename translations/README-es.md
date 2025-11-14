@@ -894,7 +894,7 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
     - ¿Cuándo es apropiado usarlo?
     - ¿Qué es la recursión de cola? ¿Por qué es tan mala?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+        - [ ] [Tail Recursion (video)](https://www.coursera.org/learn/programming-languages/lecture/YZic1/tail-recursion)
 
 - ### Programación Dinámica
     - Este tema puede ser bastante difícil, ya que cada problema soluble PD debe definirse como una relación de recursión, y llegar a ella, puede ser complicado.

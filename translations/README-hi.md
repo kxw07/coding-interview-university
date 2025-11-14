@@ -582,9 +582,9 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
 
 - ### सरणी
     - [ ] सरणियों के बारे में:
-        - [सरणी (वीडियो)](https://www.coursera.org/lecture/data-structs/arrays-OsBSF)
+        - [सरणी (वीडियो)](https://www.coursera.org/learn/data-structs/lecture/OsBSF/arrays)
         - [यूसी बर्कले CS61B - लीनियर और मल्टी-डिम एरेज़ (वीडियो)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (15m 32s से देखना शुरू करें)
-        - [डायनामिक एरेज़ (वीडियो)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [डायनामिक एरेज़ (वीडियो)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [जैग्ड ऐरे (वीडियो)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [] एक वेक्टर लागू करें (स्वचालित आकार बदलने के साथ परिवर्तनीय सरणी):
         - [] इंडेक्सिंग का उपयोग करने के बजाय इंडेक्स पर कूदने के लिए एरेज़ और पॉइंटर्स और पॉइंटर मैथ का उपयोग करके कोडिंग का अभ्यास करें।
@@ -613,14 +613,14 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
         - स्थान की आवश्यकता = (सरणी क्षमता, जो> = n है) * वस्तु का आकार, लेकिन भले ही 2n, फिर भी O(n)
 - ### लिंक्ड सूचियां
     - [ ] विवरण:
-        - [ ] [सिंगली लिंक्ड लिस्ट (वीडियो)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        - [ ] [सिंगली लिंक्ड लिस्ट (वीडियो)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [सीएस 61बी - लिंक्ड सूचियां 1 (वीडियो)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [सीएस 61बी - लिंक्ड सूचियां 2 (वीडियो)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [सी कोड (वीडियो)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - संपूर्ण वीडियो नहीं, केवल नोड संरचना और स्मृति आवंटन के बारे में अंश
     - [] लिंक्ड लिस्ट बनाम एरेज़:
-        - [कोर लिंक्ड लिस्ट बनाम एरेज़ (वीडियो)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [कोर लिंक्ड लिस्ट बनाम एरेज़ (वीडियो)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [इन द रियल वर्ल्ड लिंक्ड लिस्ट्स बनाम एरेज़ (वीडियो)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd )
     - [ ] [आपको लिंक की गई सूचियों (वीडियो) से क्यों बचना चाहिए](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [] गोचा: आपको पॉइंटर टू पॉइंटर नॉलेज चाहिए:
@@ -643,15 +643,15 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
         - [ ] reverse() - reverses the list
         - [ ] remove_value(value) - removes the first item in the list with this value
     - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - No need to implement
 - ### ढेर
-    - [ ] [स्टैक (वीडियो)](https://www.coursera.org/lecture/data-structs/stacks-UdKzQ)
+    - [ ] [स्टैक (वीडियो)](https://www.coursera.org/learn/data-structs/lecture/UdKzQ/stacks)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] लागू नहीं होगा। सरणी के साथ कार्यान्वित करना तुच्छ है
 
 - ### कतार
-    - [ ] [कतार (वीडियो)](https://www.coursera.org/lecture/data-structs/queues-EShpq)
+    - [ ] [कतार (वीडियो)](https://www.coursera.org/learn/data-structs/lecture/EShpq/queues)
     - [ ] [सर्कुलर बफर/फीफो](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [] टेल पॉइंटर के साथ लिंक्ड-लिस्ट का उपयोग करके लागू करें:
@@ -683,12 +683,12 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
 
     
 - [ ] ऑनलाइन पाठ्यक्रम:
-        - [ ] [कोर हैश टेबल्स (वीडियो)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+        - [ ] [कोर हैश टेबल्स (वीडियो)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [डेटा संरचनाएं (वीडियो)](https://www.coursera.org/learn/data-structs/home/week/4)
-        - [ ] [फोन बुक प्रॉब्लम (वीडियो)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+        - [ ] [फोन बुक प्रॉब्लम (वीडियो)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
         - [] वितरित हैश टेबल:
-            - [ड्रॉपबॉक्स (वीडियो) में तत्काल अपलोड और संग्रहण अनुकूलन](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
-            - [डिस्ट्रिब्यूटेड हैश टेबल्स (वीडियो)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
+            - [ड्रॉपबॉक्स (वीडियो) में तत्काल अपलोड और संग्रहण अनुकूलन](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+            - [डिस्ट्रिब्यूटेड हैश टेबल्स (वीडियो)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
     - [] रैखिक जांच का उपयोग करके सरणी के साथ कार्यान्वित करें
         - हैश (के, एम) - एम हैश टेबल का आकार है
@@ -737,7 +737,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
 ## पेड़
 
 - ### पेड़ - नोट्स और पृष्ठभूमि
-    - [ ] [श्रृंखला: पेड़ (वीडियो)] (https://www.coursera.org/lecture/data-structs/trees-95qda)
+    - [ ] [श्रृंखला: पेड़ (वीडियो)] (https://www.coursera.org/learn/data-structs/lecture/95qda/trees)
     - मूल वृक्ष निर्माण
     - ट्रैवर्सल
     - हेरफेर एल्गोरिदम
@@ -789,7 +789,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
 - ### हीप / प्राथमिकता कतार / बाइनरी हीप
     - एक पेड़ के रूप में देखा जाता है, लेकिन आमतौर पर भंडारण में रैखिक होता है (सरणी, लिंक्ड सूची)
     - [ ] [हीप] (https://en.wikipedia.org/wiki/Heap_(data_struct))
-    - [ ] [परिचय (वीडियो)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] [परिचय (वीडियो)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] [बेवकूफ कार्यान्वयन (वीडियो)](https://www.coursera.org/learn/data-structs/lecture/z3l9N/naive-implementations)
     - [ ] [बाइनरी ट्री (वीडियो)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
     - [ ] [वृक्ष ऊंचाई टिप्पणी (वीडियो)](https://www.coursera.org/learn/data-structs/supplement/S5xxz/tree-height-remark)
@@ -797,8 +797,8 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
     - [ ] [पूर्ण बाइनरी ट्री (वीडियो)](https://www.coursera.org/learn/data-structs/lecture/gl5Ni/complete-binary-trees)
     - [ ] [स्यूडोकोड (वीडियो)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
     - [ ] [हीप सॉर्ट - जंप टू स्टार्ट (वीडियो)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [हीप सॉर्ट (वीडियो)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
-    - [ ] [ढेर बनाना (वीडियो)](https://www.coursera.org/lecture/data-structures/build-a-heap-dwrOS)
+    - [ ] [हीप सॉर्ट (वीडियो)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
+    - [ ] [ढेर बनाना (वीडियो)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/build-a-heap)
     - [ ] [एमआईटी: हीप्स एंड हीप सॉर्ट (वीडियो)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [सीएस 61बी व्याख्यान 24: प्राथमिकता कतारें (वीडियो)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [रैखिक समय BuildHeap (अधिकतम-ढेर)](https://www.youtube.com/watch?v=MiyLo8adrWw)
@@ -831,17 +831,17 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
 - हीपसॉर्ट के लिए, ऊपर हीप डेटा संरचना देखें। ढेर छँटाई महान है, लेकिन स्थिर नहीं है
 
 - [ ] [सेजविक - मर्जसॉर्ट (5 वीडियो)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] [1. मर्जसॉर्ट](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+    - [ ] [1. मर्जसॉर्ट](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
     - [ ] [2. बॉटम अप मर्जसॉर्ट](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
-    - [ ] [3. छँटाई जटिलता](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
-    - [ ] [4. तुलनित्र](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+    - [ ] [3. छँटाई जटिलता](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
+    - [ ] [4. तुलनित्र](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
     - [ ] [5. स्थिरता](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
 
 - [ ] [सेजविक - क्विकसॉर्ट (4 वीडियो)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. क्विकसॉर्ट](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-    - [ ] [2. चयन](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
-    - [ ] [3. डुप्लीकेट कुंजियाँ](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
-    - [ ] [4. सिस्टम सॉर्ट](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7) 
+    - [ ] [2. चयन](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
+    - [ ] [3. डुप्लीकेट कुंजियाँ](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
+    - [ ] [4. सिस्टम सॉर्ट](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts) 
 - [ ] यूसी बरकेले:
     - [ ] [सीएस 61बी लेक्चर 29: सॉर्टिंग I (वीडियो)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
     - [ ] [सीएस 61बी लेक्चर 30: सॉर्टिंग II (वीडियो)](https://archive.org/details/ucberkeley_webcast_2hTY3t80Qsk)
@@ -882,10 +882,10 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
  - [] आवश्यक नहीं है, लेकिन मैंने उनकी सिफारिश की:
     - [ ] [सेजविक - रेडिक्स सॉर्ट्स (6 वीडियो)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
         - [ ] [1. जावा में स्ट्रिंग्स](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-        - [ ] [2. कुंजी अनुक्रमित गिनती](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+        - [ ] [2. कुंजी अनुक्रमित गिनती](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
         - [ ] [3. कम से कम महत्वपूर्ण अंक प्रथम स्ट्रिंग रेडिक्स सॉर्ट](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
         - [ ] [4. सबसे महत्वपूर्ण अंक पहली स्ट्रिंग रेडिक्स सॉर्ट](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-        - [ ] [5. 3 वे रेडिक्स क्विकसॉर्ट](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+        - [ ] [5. 3 वे रेडिक्स क्विकसॉर्ट](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
         - [ ] [6. प्रत्यय सरणी](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [रेडिक्स सॉर्ट](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [रेडिक्स सॉर्ट (वीडियो)](https://www.youtube.com/watch?v=xhr26ia4k38)
@@ -967,7 +967,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
     - इसका उपयोग कब करना उचित है?
     - टेल रिकर्सन कैसे बेहतर नहीं है?
         - [ ] [टेल रिकर्सन क्या है यह इतना बुरा क्यों है?](https://www.quora.com/What-is-tail-recursion- Why-is-it-so-bad)
-        - [ ] [टेल रिकर्सन (वीडियो)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+        - [ ] [टेल रिकर्सन (वीडियो)](https://www.coursera.org/learn/programming-languages/lecture/YZic1/tail-recursion)
     - [ ] [किसी भी पुनरावर्ती समस्या को हल करने के लिए 5 सरल चरण (वीडियो)](https://youtu.be/ngCos392W4w)
 
 बैकट्रैकिंग ब्लूप्रिंट: [जावा](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-) पलिंड्रोम-विभाजन))
@@ -992,12 +992,12 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
         - [ ] [डायनामिक प्रोग्रामिंग](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] कौरसेरा:
         - [ ] [आरएनए सेकेंडरी स्ट्रक्चर प्रॉब्लम (वीडियो)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [एक गतिशील प्रोग्रामिंग एल्गोरिथम (वीडियो)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
-        - [ ] [डीपी एल्गोरिथम (वीडियो) का चित्रण](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+        - [ ] [एक गतिशील प्रोग्रामिंग एल्गोरिथम (वीडियो)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
+        - [ ] [डीपी एल्गोरिथम (वीडियो) का चित्रण](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
        
 - [ ] [डीपी एल्गोरिथम (वीडियो) का रनिंग टाइम] (https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
         - [ ] [डीपी बनाम पुनरावर्ती कार्यान्वयन (वीडियो)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] [वैश्विक जोड़ीवार अनुक्रम संरेखण (वीडियो)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+        - [ ] [वैश्विक जोड़ीवार अनुक्रम संरेखण (वीडियो)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
         - [ ] [स्थानीय जोड़ीवार अनुक्रम संरेखण (वीडियो)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
 - ### डिजाइन पैटर्न्स
@@ -1130,11 +1130,11 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
 -### स्ट्रिंग खोज और जोड़तोड़
     - [ ] [सेडगेविक - प्रत्यय सरणी (वीडियो)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [सेजविक - सबस्ट्रिंग सर्च (वीडियो)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. सबस्ट्रिंग सर्च का परिचय](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
+        - [ ] [1. सबस्ट्रिंग सर्च का परिचय](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
         - [ ] [2. ब्रूट-फोर्स सबस्ट्रिंग सर्च](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
         - [ ] [3. नुथ-मॉरिस प्रैट](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
         - [ ] [4. बॉयर-मूर](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-        - [ ] [5. राबिन-कार्प](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+        - [ ] [5. राबिन-कार्प](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
     - [ ] [पाठ में खोज पैटर्न (वीडियो)](https://www.coursera.org/learn/data-structs/lecture/tAfHI/search-pattern-in-text)
 
     यदि आपको इस विषय पर अधिक विवरण की आवश्यकता है, तो [कुछ विषयों पर अतिरिक्त विवरण] (# अतिरिक्त-विवरण-पर-कुछ-विषयों) में "स्ट्रिंग मिलान" अनुभाग देखें।
@@ -1830,7 +1830,7 @@ Anki प्रारूप में मेरा फ्लैशकार्ड
 
 - **स्ट्रिंग मिलान**
     - राबिन-कार्प (वीडियो):
-        - [राबिन कार्प्स एल्गोरिथम](https://www.coursera.org/lecture/data-structs/rabin-karps-algorithm-c0Qkw)
+        - [राबिन कार्प्स एल्गोरिथम](https://www.coursera.org/learn/data-structs/lecture/c0Qkw/rabin-karps-algorithm)
         - [प्रीकंप्यूटिंग](https://www.coursera.org/learn/data-structs/lecture/nYrc8/optimization-precomputation)
         - [ऑप्टिमाइज़ेशन: क्रियान्वयन और विश्लेषण](https://www.coursera.org/learn/data-structs/lecture/h4ZLc/optimization-implementation-and-analysis)
         - [टेबल डबलिंग, कार्प-राबिन](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)

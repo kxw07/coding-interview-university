@@ -959,7 +959,7 @@ Google не возьмёт тебя на работу.
     - когда уместно использование рекурсии?
     - когда лучше использовать хвостовую рекурсию?
         - [ ] [Что такое хвостовая рекурсия и почему её использование нежелательно?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Хвостовая рекурсия (видео)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+        - [ ] [Хвостовая рекурсия (видео)](https://www.coursera.org/learn/programming-languages/lecture/YZic1/tail-recursion)
 
 - ### Объектно-ориентированное программирование
     - [ ] [Дополнительно: Серия уроков по UML 2.0 (видео)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)

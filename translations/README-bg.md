@@ -568,9 +568,9 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 - ### Масиви
   - [ ] За масивите:
-    - [Arrays (клип)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+    - [Arrays (клип)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
     - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (клип)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-    - [Dynamic Arrays (клип)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+    - [Dynamic Arrays (клип)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
     - [Jagged Arrays (клип)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
   - [ ] Имплементирайте вектор (променлив масив с автоматично преоразмеряване):
     - [ ] Упражнявайте се да пишете код, ползвайки масиви и пойнтъри. Ползвайте пойнтъри за преместване към индекс вместо индексиране
@@ -600,14 +600,14 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 - ### Свързани списъци
   - [ ] Описание:
-    - [ ] [Единично свързани списъци (клип)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+    - [ ] [Единично свързани списъци (клип)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
     - [ ] [CS 61B - Linked Lists 1 (клип)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
     - [ ] [CS 61B - Linked Lists 2 (клип)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
   - [ ] [Код в C (клип)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - не цялото видео, само частите за Node structs и алокация на памет
   - [ ] Свързани списъци срещу масиви:
-    - [Core Linked Lists Vs Arrays (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
-    - [Свързани списъци срещу масиви в истинския свят (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+    - [Core Linked Lists Vs Arrays (клип)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+    - [Свързани списъци срещу масиви в истинския свят (клип)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [Защо да избягваме свързаните списъци (клип)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Аха: трябват Ви pointer to pointer знания:
       (за да можете да подавате pointer към функция, която може да промени адреса, към който сочи pointer-a)
@@ -630,16 +630,16 @@ pобхождам графи. Ако трябваше да напиша сорт
       - [ ] reverse() - обръща списъка
       - [ ] remove_value(value) - премахва първия елемент от списъка, съдържащ тази стойност
     - [ ] Двойно свързан списък
-      - [Описание (клип)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+      - [Описание (клип)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
       - Няма нужда от имплементация
 
 - ### Стек
-  - [ ] [Стекове (клип)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+  - [ ] [Стекове (клип)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
   - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
   - [ ] Няма нужда да се имплементира. Имплементацията с масив е тривиална.
 
 - ### Опашка
-  - [ ] [Опашка (клип)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+  - [ ] [Опашка (клип)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queues)
   - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
   - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
   - [ ] Имплементирайте със свързан списък с tail pointer:
@@ -669,12 +669,12 @@ pобхождам графи. Ако трябваше да напиша сорт
       - [ ] [(За напреднали) Perfect hashing (клип)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
       - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
     - [ ] Онлайн курсовe:
-      - [ ] [Core Hash Tables (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+      - [ ] [Core Hash Tables (клип)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
       - [ ] [Data Structures (клип)](https://www.coursera.org/learn/data-structures/home/week/4)
-      - [ ] [Phone Book Problem (клип)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+      - [ ] [Phone Book Problem (клип)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
       - [ ] Дистрибутирани хеш таблици:
-        - [Instant Uploads And Storage Optimization In Dropbox (клип)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
-        - [Distributed Hash Tables (клип)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
+        - [Instant Uploads And Storage Optimization In Dropbox (клип)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+        - [Distributed Hash Tables (клип)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
     - [ ] Имплементирайте с масив, ползвайки linear probing
       - hash(k, m) - m е размера на хеш таблицата
       - add(key, value) - ако ключа съществува актуализирайте стойността
@@ -721,7 +721,7 @@ pобхождам графи. Ако трябваше да напиша сорт
 ## Дървета
 
 - ### Дървета - бележки & основи
-  - [ ] [Серия: Дървета (клип)](https://www.coursera.org/lecture/data-structures/trees-95qda)
+  - [ ] [Серия: Дървета (клип)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
   - основна структура на дървото
   - обхождане
   - алгоритми за манипулиране
@@ -966,7 +966,7 @@ pобхождам графи. Ако трябваше да напиша сорт
     -   Кога е подходящо да се използва?
     -   Как опашковата рекурсия е по-добра отколкото без?
         -   [ ] [Какво е опашкова рекурсия и защо е толкова лоша?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        -   [ ] [Опашкова рекурсия (клип)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+        -   [ ] [Опашкова рекурсия (клип)](https://www.coursera.org/learn/programming-languages/lecture/YZic1/tail-recursion)
 
 -   ### Динамично програмиране
 

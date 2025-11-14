@@ -496,12 +496,12 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
     - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [slides](https://archive.org/details/lecture2_202008)
 - [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
-- [ ] [Asymptotics (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
+- [ ] [Orders of Growth (video)](https://www.coursera.org/learn/algorithmic-thinking-1/lecture/6PKkX/orders-of-growth)
+- [ ] [Asymptotics (video)](https://www.coursera.org/learn/algorithmic-thinking-1/lecture/bXAtM/asymptotics)
 - [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 - [ ] [UC Berkeley Big Omega (video)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
 - [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Illustrating "Big O" (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
+- [ ] [Illustrating "Big O" (video)](https://www.coursera.org/learn/algorithmic-thinking-1/lecture/YVqzv/illustrating-big-o)
 - [ ] TopCoder (includes recurrence relations and master theorem):
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
@@ -513,9 +513,9 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
 - ### Diziler
     - Otomatik olarak yeniden boyutlandırılan bir vektör uygulayın.
     - [ ] Tanım:
-        - [Diziler (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [Diziler (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UC Berkeley CS61B - Lineer ve Çok Boyutlu Diziler (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (İzlemenye 15:32'den başlayın)
-        - [Dinamik Diziler (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [Dinamik Diziler (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Jagged Diziler (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Vektör uygulayın (otomatik yeniden boyutlandırmaya sahip değiştirilebilir dizi):
         - [ ] Dizileri ve işaretçileri kullanarak kodlama pratiği yapın, ve indexleme kullanmak yerine işaretçi matematiği kullanarak bir indexe atlayın.
@@ -584,7 +584,7 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
     - [ ] Uygulamayın. Diziyle gerçekleştirmek önemsiz.
 
 - ### Kuyruk
-    - [ ] [Kuyruk (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [ ] [Kuyruk (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queues)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] Bağlı listeyle birlikte kuyruk işaretçisi kullanarak uygulayın:
@@ -619,12 +619,12 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
         - [ ] [Hash Tablolarını Kullanma (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
         - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
         - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
-        - [ ] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+        - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Veri Yapıları (video)](https://www.coursera.org/learn/data-structures/home/week/4)
-        - [ ] [Telefon Rehberi Problemi (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+        - [ ] [Telefon Rehberi Problemi (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
         - [ ] dağıtık hash tabloları:
-            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
-            - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
+            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+            - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
     - [ ] Doğrusal sondalama (Linear Probing) kullanarak dizi ile uygulayın:
         - hash(k, m) - m has tablosunun büyüklüğü
@@ -674,7 +674,7 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
 ## Ağaçlar
 
 - ### Ağaçlar - Notlar & Arkaplan
-    - [ ] [Series: Ağaçlar (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
+    - [ ] [Series: Ağaçlar (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - basit ağaç yapımı
     - traversal
     - manipülasyon algoritmaları
@@ -909,7 +909,7 @@ Graflar, bilgisayar bilimlerinde birçok sorunu temsil etmek için kullanılabil
     - Ne zaman kullanmak uygun olur?
     - Parçalı özyineleme olmamasından nasıl daha iyidir?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+        - [ ] [Tail Recursion (video)](https://www.coursera.org/learn/programming-languages/lecture/YZic1/tail-recursion)
 
 - ### Dinamik Programlama
     - Mülakatınızda muhtemelen herhangi bir dinamik programlama sorusu görmeyeceksiniz, ancak bir soruyu dinamik programlama adayı olarak tanımaya değer.

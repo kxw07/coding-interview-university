@@ -484,9 +484,9 @@ als u de runtime-complexiteit van verschillende algoritmen kunt identificeren. H
 
 - ### Arrays
     - [ ] Over arrays:
-        - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UC Berkeley CS61B - Lineaire en multi-dim arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Begin met kijken vanaf 15m 32s)
-        - [Dynamische arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [Dynamische arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implementeer een vector (veranderlijke array met automatisch formaat wijzigen):
         - [ ] Oefen met coderen met ar
@@ -518,13 +518,13 @@ als u de runtime-complexiteit van verschillende algoritmen kunt identificeren. H
 
 - ### Gelinkte lijsten
     - [ ] Beschrijving:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Gelinkte lijsten 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Gelinkte lijsten 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [C-code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - niet de hele video, alleen delen over Node struct en geheugentoewijzing
     - [ ] Gelinkte lijst versus arrays:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [In de echte wereld gekoppelde lijsten versus arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd )
     - [ ] [Waarom je gelinkte lijsten (video) moet vermijden](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Gotcha: je hebt pointer to pointer kennis nodig:
@@ -547,15 +547,15 @@ als u de runtime-complexiteit van verschillende algoritmen kunt identificeren. H
         - [ ] reverse() - keert de lijst om
         - [ ] remove_value(value) - verwijdert het eerste item in de lijst met deze waarde
     - [ ] Dubbel gelinkte lijst
-        - [Beschrijving (video)](https://www.coursera.org/lecture/data-structures/double-linked-lists-jpGKD)
+        - [Beschrijving (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/double-linked-lists)
         - Niet nodig om te implementeren
 
 - ### Stapel
-    - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] Wordt niet geïmplementeerd. Implementeren met array is triviaal
 
 - ### Rij
-    - [ ] [Wachtrij (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [ ] [Wachtrij (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queues)
     - [ ] [Circulaire buffer/FIFO](https://en.wikipedia.org/wiki/Circulaire_buffer)
     - [ ] Implementeer met behulp van gekoppelde lijst, met staartaanwijzer:
         - in de wachtrij plaatsen (waarde) - voegt waarde toe op positie aan de staart
@@ -586,12 +586,12 @@ als u de runtime-complexiteit van verschillende algoritmen kunt identificeren. H
         - [ ] [(Geavanceerd) Perfect hashen (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
     - [ ] Online cursussen:
-        - [ ] [Core Hash-tabellen (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+        - [ ] [Core Hash-tabellen (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Datastructuren (video)](https://www.coursera.org/learn/data-structures/home/week/4)
-        - [ ] [Telefoonboekprobleem (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+        - [ ] [Telefoonboekprobleem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
         - [ ] gedistribueerde hashtabellen:
-            - [Directe uploads en opslagoptimalisatie in Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
-            - [Gedistribueerde hashtabellen (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
+            - [Directe uploads en opslagoptimalisatie in Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+            - [Gedistribueerde hashtabellen (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
     - [ ] Implementeren met array met lineair tasten
         - hash(k, m) - m is de grootte van de hashtabel
@@ -643,7 +643,7 @@ als u de runtime-complexiteit van verschillende algoritmen kunt identificeren. H
 ## Bomen
 
 - ### Bomen - Notities & Achtergrond
-    - [ ] [Serie: Bomen (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
+    - [ ] [Serie: Bomen (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - basis boomconstructie
     - doorkruising
     - manipulatie-algoritmen
@@ -692,7 +692,7 @@ als u de runtime-complexiteit van verschillende algoritmen kunt identificeren. H
 - ### Heap / Prioriteitswachtrij / Binaire Heap
     - gevisualiseerd als een boom, maar is meestal lineair in opslag (array, gekoppelde lijst)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Inleiding (video)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] [Inleiding (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
     - [ ] [Naïeve implementaties (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
     - [ ] [Binaire bomen (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
     - [ ] [Opmerking boomhoogte (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
@@ -700,8 +700,8 @@ als u de runtime-complexiteit van verschillende algoritmen kunt identificeren. H
     - [ ] [Complete binaire bomen (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
     - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
     - [ ] [Heap Sort - springt om te starten (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [Heap Sort (video)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
-    - [ ] [Een hoop bouwen (video)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
+    - [ ] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
+    - [ ] [Een hoop bouwen (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
     - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWY
 
     p6V_F-5jb5L2iHb)
@@ -736,17 +736,17 @@ als u de runtime-complexiteit van verschillende algoritmen kunt identificeren. H
 - Voor heapsort, zie Heap-gegevensstructuur hierboven. Heap sort is geweldig, maar niet stabiel
 
 - [ ] [Sedgewick - Mergesort (5 video's)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] [1. Mergesort](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+    - [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
     - [ ] [2. Bottom-up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
-    - [ ] [3. Sorteercomplexiteit](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
-    - [ ] [4. Vergelijkers](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+    - [ ] [3. Sorteercomplexiteit](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
+    - [ ] [4. Vergelijkers](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
     - [ ] [5. Stabiliteit](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
 
 - [ ] [Sedgewick - Quicksort (4 video's)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-    - [ ] [2. Selectie](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
-    - [ ] [3. Dubbele sleutels](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
-    - [ ] [4. Systeemsorteringen](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
+    - [ ] [2. Selectie](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
+    - [ ] [3. Dubbele sleutels](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
+    - [ ] [4. Systeemsorteringen](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
 
 - [ ] UC Berkeley:
     - [ ] [CS 61B Lezing 29: Sorteren I (video)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
@@ -781,10 +781,10 @@ als u de runtime-complexiteit van verschillende algoritmen kunt identificeren. H
 - [ ] Niet verplicht, maar ik heb ze aanbevolen:
     - [ ] [Sedgewick - Radix Sorts (6 video's)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
         - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-        - [ ] [2. Key Indexed Counting](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+        - [ ] [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
         - [ ] [3. Minst significante cijfer eerste string Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
         - [ ] [4. Meest significante cijfer eerste string Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-        - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+        - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
         - [ ] [6. Suffix-arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Radix Sorteren](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Radix sorteren (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
@@ -867,7 +867,7 @@ Grafieken kunnen worden gebruikt om veel problemen in de informatica weer te gev
     - Wanneer is het aangewezen om het te gebruiken?
     - Hoe is staartrecursie beter dan niet?
         - [ ] [Wat is staartrecursie, waarom is het zo erg?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Staartrecursie (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+        - [ ] [Staartrecursie (video)](https://www.coursera.org/learn/programming-languages/lecture/YZic1/tail-recursion)
     - [ ] [5 eenvoudige stappen voor het oplossen van recursieve problemen (video)](https://youtu.be/ngCos392W4w)
 
 Backtracking-blauwdruk: [Java](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum- Palindroom-partitionering))
@@ -894,11 +894,11 @@ Backtracking-blauwdruk: [Java](https://leetcode.com/problems/combination-sum/dis
         ng](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
         - [ ] [Het RNA secundaire structuurprobleem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [Een dynamisch programmeeralgoritme (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
-        - [ ] [Illustratie van het DP-algoritme (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+        - [ ] [Een dynamisch programmeeralgoritme (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
+        - [ ] [Illustratie van het DP-algoritme (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
         - [ ] [Duurtijd van het DP-algoritme (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
         - [ ] [DP vs. recursieve implementatie (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] [Globale paarsgewijze sequentie-uitlijning (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+        - [ ] [Globale paarsgewijze sequentie-uitlijning (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
         - [ ] [Lokale paarsgewijze sequentie-uitlijning (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
 - ### Ontwerp patronen
@@ -1034,11 +1034,11 @@ Backtracking-blauwdruk: [Java](https://leetcode.com/problems/combination-sum/dis
 
     [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick - Substring zoeken (video's)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. Inleiding tot het zoeken naar substrings](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
+        - [ ] [1. Inleiding tot het zoeken naar substrings](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
         - [ ] [2. Brute-Force substring zoeken](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
         - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
         - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-        - [ ] [5. Rabin-Karp](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+        - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
     - [ ] [Zoekpatroon in tekst (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
     Als je meer details over dit onderwerp nodig hebt, raadpleeg dan de sectie "String Matching" in [Extra details over sommige onderwerpen](#additional-detail-on-some-subjects).
@@ -1758,7 +1758,7 @@ Je bent nooit echt klaar.
 
 - **String Matching**
     - Rabin-Karp (video's):
-        - [Rabin Karps-algoritme](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+        - [Rabin Karps-algoritme](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
         - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
         - [Optimalisatie: implementatie en analyse](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
         - [Tafelverdubbeling, Karp-Ra

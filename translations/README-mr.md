@@ -564,9 +564,9 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
 
   - [ ] अ‍ॅरे बद्दल:
     - [हार्वर्ड विद्यापीठावरील अ‍ॅरे CS50](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
-      - [अ‍ॅरे (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+      - [अ‍ॅरे (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
       - [UC बर्कली CS61B - लिनियर आणि मल्टी-डिम अ‍ॅरे (व्हिडिओ)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (15 मिनिट 32 सेकंदपासून पाहा)
-      - [डायनॅमिक अ‍ॅरे (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+      - [डायनॅमिक अ‍ॅरे (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
       - [जॅग्ड अ‍ॅरे (व्हिडिओ)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
   - [ ] एक वेक्टर अ‍ॅरे (परिवर्तनशील अ‍ॅरे स्वत:चं रेसायजिंगसह):
     - [ ] अ‍ॅरे आणि पॉईंटर्स वापरून कोडिंग करण्याची अभ्यास करा, आणि निर्देशांकांचा वापर करून सूचकांक करा.
@@ -598,7 +598,7 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
 
   - [ ] वर्णन:
     - [ ] [लिंक्ड लिस्ट्स CS50 हार्वर्ड विद्यापीठ](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - हे इंट्यूइशन तयार करते.
-      - [ ] [सिंगली लिंक्ड लिस्ट्स (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+      - [ ] [सिंगली लिंक्ड लिस्ट्स (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
       - [ ] [सीएस 61B - लिंक्ड लिस्ट्स 1 (व्हिडिओ)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
       - [ ] [सीएस 61B - लिंक्ड लिस्ट्स 2 (व्हिडिओ)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
       - [ ] [[पुनरावलोकन] ४ मिनिटात लिंक्ड लिस्ट्स (व्हिडिओ)](https://youtu.be/F8AbOfQwl1c)
@@ -619,18 +619,18 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
     - [ ] रिव्हर्स() - लिस्ट उलटते
     - [ ] रिमूव_वॅल्यू(मूल्य) - लिस्टमध्ये त्याच्या मूल्यानुसार प्रथम आयटम काढतो
   - [ ] डब्ल्यू-लिंक्ड लिस्ट
-    - [वर्णन (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+    - [वर्णन (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
     - कोणत्याही अट लागत नाही
 
 - ### स्टॅक
 
-  - [ ] [स्टॅक (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+  - [ ] [स्टॅक (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
   - [ ] [[पुनरावलोकन] ३ मिनिटात स्टॅक्स (व्हिडिओ)](https://youtu.be/KcT3aVgrrpU)
   - [ ] अ‍ॅरे सह अ‍ॅरे वापरणे सोपं आहे
 
 - ### क्यू
 
-  - [ ] [क्यू (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+  - [ ] [क्यू (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queues)
   - [ ] [सर्कुलर बफर / एफआयएफओ](https://en.wikipedia.org/wiki/Circular_buffer)
   - [ ] [[पुनरावलोकन] ३ मिनिटात क्यू (व्हिडिओ)](https://youtu.be/D6gu-_tmEpQ)
   - [ ] लिंक्ड-लिस्ट वापरून कार्यान्वयन करा, प्लॅनर संदर्भाने:
@@ -656,12 +656,12 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
     - [ ] [[पुनरावलोकन] ४ मिनिटात हॅश टेबल्स (व्हिडिओ)](https://youtu.be/knV86FlSXJ8)
   - [ ] ऑनलाईन कोर्सेस:
 
-    - [ ] [कोर हॅश टेबल्स (व्हिडिओ)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+    - [ ] [कोर हॅश टेबल्स (व्हिडिओ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
     - [ ] [डेटा संरचना (व्हिडिओ)](https://www.coursera.org/learn/data-structures/home/week/4)
-    - [ ] [फोन बुक प्रॉब्लेम (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+    - [ ] [फोन बुक प्रॉब्लेम (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
     - [ ] वितरित हॅश टेबल्स:
-      - [ड्रॉपबॉक्समध्ये त्वरित अपलोड्स आणि स्टोरेज अद्यतन (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
-      - [वितरित हॅश टेबल्स (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
+      - [ड्रॉपबॉक्समध्ये त्वरित अपलोड्स आणि स्टोरेज अद्यतन (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+      - [वितरित हॅश टेबल्स (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
   - [ ] अ‍ॅरे वापरून लिनिअर प्रोबिंग वापरून कार्यान्वित करा
     - हॅश(k, m) - m हॅश टेबलचा आकार आहे
@@ -714,8 +714,8 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
 
 - ### झाडे - परिचय
 
-  - [ ] [झाडांचा परिचय (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/trees-95qda)
-  - [ ] [झाड ट्रावर्सल (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/tree-traversal-fr51b)
+  - [ ] [झाडांचा परिचय (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+  - [ ] [झाड ट्रावर्सल (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/fr51b/tree-traversal)
   - [ ] [BFS(ब्रेड्थ-फर्स्ट सर्च) आणि DFS(डेप्थ-फर्स्ट सर्च) (व्हिडिओ)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
     - BFS नोट:
       - स्तर क्रम (BFS, क्यूच वापरून)
@@ -765,15 +765,15 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
 - ### हिप / प्रायरिटी क्यू / बायनरी हिप
   - झाड म्हणून विज्ञान केले जाते, परंतु सामान्यतः संग्रह (एरे, लिंक्ड सूची) मध्ये लीनियर आहे
   - [ ] [हिप](<https://en.wikipedia.org/wiki/Heap_(data_structure)>)
-  - [ ] [परिचय (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+  - [ ] [परिचय (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
   - [ ] [बायनरी झाड (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
   - [ ] [झाड उंची टिप (व्हिडिओ)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
   - [ ] [मूल्यांची बुनणी (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
   - [ ] [पूर्ण बायनरी झाड (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
   - [ ] [उपनामकोड (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
   - [ ] [हिप क्रमवार क्रमणी (व्हिडिओ)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-  - [ ] [हिप क्रमवार (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
-  - [ ] [हिप निर्माण (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
+  - [ ] [हिप क्रमवार (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
+  - [ ] [हिप निर्माण (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
   - [ ] [MIT: हिप आणि हिप क्रमवार (व्हिडिओ)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
   - [ ] [CS 61B लेक्चर 24: प्रायरिटी क्यू (व्हिडिओ)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
   - [ ] [लीनियर वेळ बनवा (मॅक्स-हिपमध्ये)](https://www.youtube.com/watch?v=MiyLo8adrWw)
@@ -809,18 +809,18 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
 
 - [ ] [सेजविक - मर्जसॉर्ट (5 व्हिडिओ)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
 
-  - [ ] [1. मर्जसॉर्ट](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+  - [ ] [1. मर्जसॉर्ट](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
   - [ ] [2. बॉटम-अप मर्जसॉर्ट](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
-  - [ ] [3. सॉर्टिंग संघटना](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
-  - [ ] [4. कंपरेटर्स](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+  - [ ] [3. सॉर्टिंग संघटना](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
+  - [ ] [4. कंपरेटर्स](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
   - [ ] [5. स्थिरता](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
 
 - [ ] [सेजविक - क्विकसॉर्ट (4 व्हिडिओ)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
 
-  - [ ] [1. क्विकसॉर्ट](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
-  - [ ] [2. सेलेक्शन](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
-  - [ ] [3. डुप्लिकेट कीज](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
-  - [ ] [4. सिस्टम सॉर्ट्स](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
+  - [ ] [1. क्विकसॉर्ट](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
+  - [ ] [2. सेलेक्शन](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
+  - [ ] [3. डुप्लिकेट कीज](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
+  - [ ] [4. सिस्टम सॉर्ट्स](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
 
 - [ ] UC Berkeley:
 
@@ -867,10 +867,10 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
 - [ ] आवश्यक नाही, परंतु मी त्यांना शिफारस करतो:
   - [ ] [सेजविक - रॅडिक्स सॉर्ट (६ व्हिडिओ)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
     - [ ] [1. जावात स्ट्रिंग्स](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-    - [ ] [2. की इंडेक्स्ड काउंटिंग](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+    - [ ] [2. की इंडेक्स्ड काउंटिंग](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
     - [ ] [3. लीस्ट सिग्निफिकंट डिजिट फर्स्ट स्ट्रिंग रॅडिक्स सॉर्ट](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
     - [ ] [4. मोस्ट सिग्निफिकंट डिजिट फर्स्ट स्ट्रिंग रॅडिक्स सॉर्ट](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-    - [ ] [5. ३ वे रॅडिक्स क्विकसॉर्ट](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+    - [ ] [5. ३ वे रॅडिक्स क्विकसॉर्ट](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
     - [ ] [6. सफ्फिक्स अ‍ॅरे](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
   - [ ] [रॅडिक्स सॉर्ट](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
   - [ ] [रॅडिक्स सॉर्ट (व्हिडिओ)](https://www.youtube.com/watch?v=xhr26ia4k38)
@@ -957,7 +957,7 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
   - कोणत्याही स्थितीत ते वापरण्याचे कधी योग्य आहे?
   - टेल पुनरावर्तन कसे विचारले जाते?
     - [ ] [टेल पुनरावर्तन काय आहे, ते का वापरण्याचे खरे कारण आहे?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-    - [ ] [टेल पुनरावर्तन (व्हिडिओ)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+    - [ ] [टेल पुनरावर्तन (व्हिडिओ)](https://www.coursera.org/learn/programming-languages/lecture/YZic1/tail-recursion)
   - [ ] [कोणत्याही पुनरावर्तन समस्येचे विचार कसे करावे (व्हिडिओ)](https://youtu.be/ngCos392W4w)
 
   परत्यायीकरणाची शारीरिक नकाशा: [Java](<https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)>)
@@ -983,11 +983,11 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
     - [ ] [डायनॅमिक प्रोग्रामिंग](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
   - [ ] कोर्सेरा:
     - [ ] [RNA सेकंडरी संरचना समस्या (व्हिडिओ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-    - [ ] [एक डायनॅमिक प्रोग्रामिंग अल्गोरिदम (व्हिडिओ)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
-    - [ ] [डीपी अल्गोरिदमचा चित्रण (व्हिडिओ)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+    - [ ] [एक डायनॅमिक प्रोग्रामिंग अल्गोरिदम (व्हिडिओ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
+    - [ ] [डीपी अल्गोरिदमचा चित्रण (व्हिडिओ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
     - [ ] [डीपी अल्गोरिदमची चालनाची वेळ (व्हिडिओ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
     - [ ] [डीपी बनाम पुनरावलोकन अंमलावणी (व्हिडिओ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-    - [ ] [ग्लोबल पेअरवायस सिक्वेन्स अलायनमेंट (व्हिडिओ)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+    - [ ] [ग्लोबल पेअरवायस सिक्वेन्स अलायनमेंट (व्हिडिओ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
     - [ ] [स्थानिक पेअरवायस सिक्वेन्स अलायनमेंट (व्हिडिओ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
 - ### डिझाइन पॅटर्न्स
@@ -1123,11 +1123,11 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
 
   - [ ] [सेजविक - सफ्फिक्स अ‍ॅरेस (व्हिडिओ)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
   - [ ] [सेजविक - उपस्थिती शोध (व्हिडिओ)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-    - [ ] [1. उपस्थिती शोधास परिचय](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
+    - [ ] [1. उपस्थिती शोधास परिचय](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
     - [ ] [2. ब्र्यूट-फोर्स उपस्थिती शोध](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
     - [ ] [3. क्नूथ-मोरिस प्रॅट](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
     - [ ] [4. बोयर-मोर](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-    - [ ] [5. राबिन-कार्प](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+    - [ ] [5. राबिन-कार्प](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
   - [ ] [टेक्स्टमध्ये पॅटर्न शोध (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
   जर आपल्याला या विषयावर अधिक माहिती आवडत असेल तर, "कितीकोटी विषयांवर अतिरिक्त माहिती" मध्ये "स्ट्रिंग मॅचिंग" अनुभाग पहा.
@@ -1803,7 +1803,7 @@ Have a story, not just data, about something you accomplished.
 
 - **स्ट्रिंग मॅचिंग**
   - रबिन-कार्प (व्हिडिओ):
-    - [रबिन कार्प ऍल्गोरिदम](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+    - [रबिन कार्प ऍल्गोरिदम](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
     - [पूर्वगणना](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
     - [ऑप्टिमायझेशन: अंमलाने आणि विश्लेषण](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
     - [टेबल डबलिंग, कार्प-रबिन](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
