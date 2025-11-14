@@ -7,6 +7,30 @@
 2. 保持技術熟練度
 3. 準備接受面試通知
 
+## 學習建議
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：履歷最後檢查 + 準備 Cover Letters
+- 下午（3h）：投遞 Google & Amazon + LeetCode × 2
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：投遞其他公司 + 建立追蹤系統
+- 下午（3h）：LeetCode × 3 + 模擬面試 × 1
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：LeetCode × 3
+- 下午（3h）：模擬面試 × 2 (包含 1 次 Behavioral)
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：LeetCode × 4
+- 下午（3h）：核心概念複習 + 模擬面試 × 1
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：LeetCode × 3
+- 下午（3h）：總複習 + 模擬面試 × 1
+
+---
+
 ## 本週學習內容
 
 ### 📧 投遞履歷
@@ -92,30 +116,6 @@
 - Day 1-2: 2-3 次 Coding Interview
 - Day 3: 1 次 Behavioral Interview
 - Day 4-5: 1-2 次綜合面試
-
----
-
-## 學習建議
-
-### Day 1 (Monday) - 6 小時
-- 上午（3h）：履歷最後檢查 + 準備 Cover Letters
-- 下午（3h）：投遞 Google & Amazon + LeetCode × 2
-
-### Day 2 (Tuesday) - 6 小時
-- 上午（3h）：投遞其他公司 + 建立追蹤系統
-- 下午（3h）：LeetCode × 3 + 模擬面試 × 1
-
-### Day 3 (Wednesday) - 6 小時
-- 上午（3h）：LeetCode × 3
-- 下午（3h）：模擬面試 × 2 (包含 1 次 Behavioral)
-
-### Day 4 (Thursday) - 6 小時
-- 上午（3h）：LeetCode × 4
-- 下午（3h）：核心概念複習 + 模擬面試 × 1
-
-### Day 5 (Friday) - 6 小時
-- 上午（3h）：LeetCode × 3
-- 下午（3h）：總複習 + 模擬面試 × 1
 
 ---
 

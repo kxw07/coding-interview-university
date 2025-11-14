@@ -7,6 +7,34 @@
 2. 掌握 Dynamic Programming 基本概念
 3. 學習 DP 的常見模式
 
+## 學習建議
+
+**註：** 本週開始前請先完成上週未完成的內容與複習
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-08 複習 + 剩餘 LeetCode 題目
+- 下午（3h）：Stanford Recursion Lecture 8 + Lecture 9
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：Stanford Recursion Lecture 10 + Lecture 11
+- 下午（3h）：Tail Recursion + 5 Steps for Solving Recursive Problems + Backtracking Blueprint
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：Skiena DP Lecture 19 + Lecture 20 (Edit Distance)
+- 下午（3h）：Skiena DP Lecture 20 (continued) + Lecture 21
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：Skiena DP Lecture 22 + Simonson DP 0
+- 下午（3h）：Simonson DP I + Simonson DP II + Yale Lecture notes
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：Coursera DP + LeetCode Easy Recursion × 2
+- 下午（3h）：LeetCode Easy DP × 2 + Medium DP × 1
+
+**註：** 剩餘 LeetCode 題目與本週複習移至下週開始進行
+
+---
+
 ## 本週學習內容
 
 ### 📚 Recursion
@@ -145,34 +173,6 @@ public int rob(int[] nums) {
     return dp[nums.length - 1];
 }
 ```
-
----
-
-## 學習建議
-
-**註：** 本週開始前請先完成上週未完成的內容與複習
-
-### Day 1 (Monday) - 6 小時
-- 上午（3h）：Week-08 複習 + 剩餘 LeetCode 題目
-- 下午（3h）：Stanford Recursion Lecture 8 + Lecture 9
-
-### Day 2 (Tuesday) - 6 小時
-- 上午（3h）：Stanford Recursion Lecture 10 + Lecture 11
-- 下午（3h）：Tail Recursion + 5 Steps for Solving Recursive Problems + Backtracking Blueprint
-
-### Day 3 (Wednesday) - 6 小時
-- 上午（3h）：Skiena DP Lecture 19 + Lecture 20 (Edit Distance)
-- 下午（3h）：Skiena DP Lecture 20 (continued) + Lecture 21
-
-### Day 4 (Thursday) - 6 小時
-- 上午（3h）：Skiena DP Lecture 22 + Simonson DP 0
-- 下午（3h）：Simonson DP I + Simonson DP II + Yale Lecture notes
-
-### Day 5 (Friday) - 6 小時
-- 上午（3h）：Coursera DP + LeetCode Easy Recursion × 2
-- 下午（3h）：LeetCode Easy DP × 2 + Medium DP × 1
-
-**註：** 剩餘 LeetCode 題目與本週複習移至下週開始進行
 
 ---
 

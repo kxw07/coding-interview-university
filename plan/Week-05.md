@@ -7,6 +7,32 @@
 2. 理解 Heap Sort 原理
 3. 學習基本排序算法（Merge Sort, Quick Sort）
 
+## 學習建議
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-04 複習 + 完成 BST 測試
+- 下午（3h）：LeetCode Traversal 題目 × 3
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：LeetCode Tree & BST 題目各 2-3 題
+- 下午（3h）：Heap 理論影片（Introduction, Binary Trees, Basic Operations）
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：Heap 理論影片（Complete Binary Trees, Pseudocode, Heap Sort）
+- 下午（3h）：Heap 理論影片（Building heap, MIT）
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：Heap 理論影片（CS 61B）+ 開始實作 Max Heap - insert, sift_up
+- 下午（3h）：實作 Max Heap - get_max, extract_max, sift_down
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：實作 Max Heap - remove, heapify, heap_sort + 測試
+- 下午（3h）：Sorting 理論（Stability, Sedgewick Mergesort 前 3 個 videos）
+
+**註：** Sedgewick Mergesort 後 2 個 videos、Sedgewick Quicksort 4 videos、實作 Merge Sort & Quick Sort、LeetCode Heap × 4、LeetCode Sorting × 2 與本週複習移至 Week-06 開始進行
+
+---
+
 ## 本週學習內容
 
 ### 📚 Heap / Priority Queue / Binary Heap
@@ -127,32 +153,6 @@
 1. [ ] [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
 2. [ ] [148. Sort List](https://leetcode.com/problems/sort-list/) (Linked List Merge Sort)
 3. [ ] [179. Largest Number](https://leetcode.com/problems/largest-number/)
-
----
-
-## 學習建議
-
-### Day 1 (Monday) - 6 小時
-- 上午（3h）：Week-04 複習 + 完成 BST 測試
-- 下午（3h）：LeetCode Traversal 題目 × 3
-
-### Day 2 (Tuesday) - 6 小時
-- 上午（3h）：LeetCode Tree & BST 題目各 2-3 題
-- 下午（3h）：Heap 理論影片（Introduction, Binary Trees, Basic Operations）
-
-### Day 3 (Wednesday) - 6 小時
-- 上午（3h）：Heap 理論影片（Complete Binary Trees, Pseudocode, Heap Sort）
-- 下午（3h）：Heap 理論影片（Building heap, MIT）
-
-### Day 4 (Thursday) - 6 小時
-- 上午（3h）：Heap 理論影片（CS 61B）+ 開始實作 Max Heap - insert, sift_up
-- 下午（3h）：實作 Max Heap - get_max, extract_max, sift_down
-
-### Day 5 (Friday) - 6 小時
-- 上午（3h）：實作 Max Heap - remove, heapify, heap_sort + 測試
-- 下午（3h）：Sorting 理論（Stability, Sedgewick Mergesort 前 3 個 videos）
-
-**註：** Sedgewick Mergesort 後 2 個 videos、Sedgewick Quicksort 4 videos、實作 Merge Sort & Quick Sort、LeetCode Heap × 4、LeetCode Sorting × 2 與本週複習移至 Week-06 開始進行
 
 ---
 

@@ -7,6 +7,32 @@
 2. 掌握 BFS 和 DFS 在圖上的應用
 3. 學習基本圖算法
 
+## 學習建議
+
+**註：** 本週開始前請先完成上週未完成的內容與複習
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：MIT BFS & DFS + Skiena Lecture 10 & 11
+- 下午（3h）：Skiena Lecture 12 (DFS) + 圖的表示方法筆記
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：實作 DFS（Adjacency List: recursive & iterative）
+- 下午（3h）：實作 DFS（Adjacency Matrix: recursive & iterative）
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：實作 BFS（Adjacency List & Matrix）
+- 下午（3h）：實作 Cycle Detection & Topological Sort
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：Skiena Lecture 13 & 14 (MST)
+- 下午（3h）：6.006 Shortest Paths & Dijkstra
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：LeetCode Graph Traversal × 3
+- 下午（3h）：LeetCode BFS/DFS 應用 × 3 + 本週複習
+
+---
+
 ## 本週學習內容
 
 ### 📚 Graphs
@@ -90,32 +116,6 @@ Graphs can be used to represent many problems in computer science, so this secti
 2. [ ] [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 3. [ ] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
 4. [ ] [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) (Premium)
-
----
-
-## 學習建議
-
-**註：** 本週開始前請先完成上週未完成的內容與複習
-
-### Day 1 (Monday) - 6 小時
-- 上午（3h）：MIT BFS & DFS + Skiena Lecture 10 & 11
-- 下午（3h）：Skiena Lecture 12 (DFS) + 圖的表示方法筆記
-
-### Day 2 (Tuesday) - 6 小時
-- 上午（3h）：實作 DFS（Adjacency List: recursive & iterative）
-- 下午（3h）：實作 DFS（Adjacency Matrix: recursive & iterative）
-
-### Day 3 (Wednesday) - 6 小時
-- 上午（3h）：實作 BFS（Adjacency List & Matrix）
-- 下午（3h）：實作 Cycle Detection & Topological Sort
-
-### Day 4 (Thursday) - 6 小時
-- 上午（3h）：Skiena Lecture 13 & 14 (MST)
-- 下午（3h）：6.006 Shortest Paths & Dijkstra
-
-### Day 5 (Friday) - 6 小時
-- 上午（3h）：LeetCode Graph Traversal × 3
-- 下午（3h）：LeetCode BFS/DFS 應用 × 3 + 本週複習
 
 ---
 

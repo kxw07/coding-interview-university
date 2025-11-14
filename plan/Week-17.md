@@ -7,6 +7,30 @@
 2. 複習核心主題
 3. 持續模擬面試
 
+## 學習建議
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Radix Sort 理論學習 + LeetCode Easy 排序題 × 2
+- 下午（3h）：LeetCode Easy 排序題 × 2
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：LeetCode Medium 排序題 × 2
+- 下午（3h）：LeetCode Medium 排序題 × 2
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：LeetCode Medium/Hard × 2
+- 下午（3h）：LeetCode Hard × 1 + Week-06 總複習
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：Array & String 複習 + Linked List, Stack, Queue 複習
+- 下午（3h）：Tree & BST 複習 + Heap & Sorting 複習
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：Graph 複習 + 模擬面試 × 1
+- 下午（3h）：模擬面試 × 1 + 本週總結
+
+---
+
 ## 本週學習內容
 
 ### 💻 完成剩餘 LeetCode 題目
@@ -59,30 +83,6 @@
 
 - 完成至少 2 次模擬面試（每次 45-60 分鐘）
 - 使用 Pramp 或 Interviewing.io
-
----
-
-## 學習建議
-
-### Day 1 (Monday) - 6 小時
-- 上午（3h）：Radix Sort 理論學習 + LeetCode Easy 排序題 × 2
-- 下午（3h）：LeetCode Easy 排序題 × 2
-
-### Day 2 (Tuesday) - 6 小時
-- 上午（3h）：LeetCode Medium 排序題 × 2
-- 下午（3h）：LeetCode Medium 排序題 × 2
-
-### Day 3 (Wednesday) - 6 小時
-- 上午（3h）：LeetCode Medium/Hard × 2
-- 下午（3h）：LeetCode Hard × 1 + Week-06 總複習
-
-### Day 4 (Thursday) - 6 小時
-- 上午（3h）：Array & String 複習 + Linked List, Stack, Queue 複習
-- 下午（3h）：Tree & BST 複習 + Heap & Sorting 複習
-
-### Day 5 (Friday) - 6 小時
-- 上午（3h）：Graph 複習 + 模擬面試 × 1
-- 下午（3h）：模擬面試 × 1 + 本週總結
 
 ---
 

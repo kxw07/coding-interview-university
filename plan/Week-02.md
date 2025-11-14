@@ -7,6 +7,32 @@
 2. 理解 Stack 和 Queue 的特性
 3. 比較不同資料結構的適用場景
 
+## 學習建議
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Linked List 理論影片（CS50, Singly Linked Lists, CS 61B part 1）
+- 下午（3h）：Linked List 理論影片（CS 61B part 2, C Code, Review）
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：開始實作 Linked List - size(), empty(), value_at(), push_front()
+- 下午（3h）：實作 Linked List - pop_front(), push_back(), pop_back(), front()
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：實作 Linked List - back(), insert(), erase(), value_n_from_end()
+- 下午（3h）：實作 Linked List - reverse(), remove_value() + 測試
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：Stack 理論 + Queue 理論影片
+- 下午（3h）：Queue 實作（linked-list 版本 + array 版本）
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：LeetCode Linked List 題目 × 3
+- 下午（3h）：LeetCode Stack × 2 + Queue × 1
+
+**註：** 剩餘 1 道 Queue LeetCode 題目與本週複習移至 Week-03 開始進行
+
+---
+
 ## 本週學習內容
 
 ### 📚 Linked Lists
@@ -139,32 +165,6 @@
 
 **Medium**：
 1. [ ] [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
-
----
-
-## 學習建議
-
-### Day 1 (Monday) - 6 小時
-- 上午（3h）：Linked List 理論影片（CS50, Singly Linked Lists, CS 61B part 1）
-- 下午（3h）：Linked List 理論影片（CS 61B part 2, C Code, Review）
-
-### Day 2 (Tuesday) - 6 小時
-- 上午（3h）：開始實作 Linked List - size(), empty(), value_at(), push_front()
-- 下午（3h）：實作 Linked List - pop_front(), push_back(), pop_back(), front()
-
-### Day 3 (Wednesday) - 6 小時
-- 上午（3h）：實作 Linked List - back(), insert(), erase(), value_n_from_end()
-- 下午（3h）：實作 Linked List - reverse(), remove_value() + 測試
-
-### Day 4 (Thursday) - 6 小時
-- 上午（3h）：Stack 理論 + Queue 理論影片
-- 下午（3h）：Queue 實作（linked-list 版本 + array 版本）
-
-### Day 5 (Friday) - 6 小時
-- 上午（3h）：LeetCode Linked List 題目 × 3
-- 下午（3h）：LeetCode Stack × 2 + Queue × 1
-
-**註：** 剩餘 1 道 Queue LeetCode 題目與本週複習移至 Week-03 開始進行
 
 ---
 

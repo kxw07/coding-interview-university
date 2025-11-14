@@ -7,6 +7,30 @@
 2. 掌握 Array 資料結構的特性與實作
 3. 開始建立解題思維
 
+## 學習建議
+
+### Day 1 (Monday) - 7 小時
+- 上午（3h）：Big-O 影片（Harvard CS50, Big O Notations, Big O Notation）
+- 下午（4h）：Big-O 影片（Skiena, UC Berkeley, Amortized Analysis）+ 閱讀 TopCoder 文章
+
+### Day 2 (Tuesday) - 7 小時
+- 上午（3h）：完成剩餘 Big-O 複習 + Arrays 理論影片
+- 下午（4h）：開始實作 Dynamic Array - 完成 size(), capacity(), is_empty(), at()
+
+### Day 3 (Wednesday) - 7 小時
+- 上午（4h）：實作 Dynamic Array - 完成 push(), insert(), prepend()
+- 下午（3h）：實作 Dynamic Array - 完成 pop(), delete(), remove()
+
+### Day 4 (Thursday) - 7 小時
+- 上午（3h）：實作 Dynamic Array - 完成 find(), resize() + 測試所有功能
+- 下午（4h）：LeetCode Easy 題目 × 3
+
+### Day 5 (Friday) - 7 小時
+- 上午（4h）：LeetCode Easy 題目 × 2 + Medium 題目 × 2
+- 下午（3h）：LeetCode Medium 題目 × 1 + 本週總複習
+
+---
+
 ## 本週學習內容
 
 ### 📚 Algorithmic complexity / Big-O / Asymptotic analysis
@@ -143,30 +167,6 @@ When you go through "Cracking the Coding Interview", there is a chapter on this,
 3. [x] [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
     - 11/12
     - 可拆解分析，不用一次到位，例如翻轉再左右對調
-
----
-
-## 學習建議
-
-### Day 1 (Monday) - 7 小時
-- 上午（3h）：Big-O 影片（Harvard CS50, Big O Notations, Big O Notation）
-- 下午（4h）：Big-O 影片（Skiena, UC Berkeley, Amortized Analysis）+ 閱讀 TopCoder 文章
-
-### Day 2 (Tuesday) - 7 小時
-- 上午（3h）：完成剩餘 Big-O 複習 + Arrays 理論影片
-- 下午（4h）：開始實作 Dynamic Array - 完成 size(), capacity(), is_empty(), at()
-
-### Day 3 (Wednesday) - 7 小時
-- 上午（4h）：實作 Dynamic Array - 完成 push(), insert(), prepend()
-- 下午（3h）：實作 Dynamic Array - 完成 pop(), delete(), remove()
-
-### Day 4 (Thursday) - 7 小時
-- 上午（3h）：實作 Dynamic Array - 完成 find(), resize() + 測試所有功能
-- 下午（4h）：LeetCode Easy 題目 × 3
-
-### Day 5 (Friday) - 7 小時
-- 上午（4h）：LeetCode Easy 題目 × 2 + Medium 題目 × 2
-- 下午（3h）：LeetCode Medium 題目 × 1 + 本週總複習
 
 ---
 

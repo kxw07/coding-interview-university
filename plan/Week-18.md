@@ -7,6 +7,30 @@
 2. 密集模擬面試訓練
 3. 完善 Behavioral Questions 準備
 
+## 學習建議
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Google 高頻題 × 3 + 模擬面試 × 1 (Coding)
+- 下午（3h）：Amazon 高頻題 × 2
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：Amazon 高頻題 × 3 + 模擬面試 × 1 (Coding)
+- 下午（3h）：準備 Leadership & Problem Solving 故事
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：Medium 題目 × 4
+- 下午（3h）：模擬面試 × 2 (Behavioral)
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：Medium 題目 × 4 + Hard × 1
+- 下午（3h）：準備 Conflict Resolution & Learning 故事 + 模擬面試 × 1 (綜合)
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：Hard × 1 + 重做錯題 × 3
+- 下午（3h）：準備 Impact & Teamwork 故事 + 模擬面試 × 2 (綜合)
+
+---
+
 ## 本週學習內容
 
 ### 💻 LeetCode 持續練習
@@ -87,30 +111,6 @@
 **Teamwork (2-3 個故事)**
 - 團隊合作完成目標
 - 幫助團隊成員
-
----
-
-## 學習建議
-
-### Day 1 (Monday) - 6 小時
-- 上午（3h）：Google 高頻題 × 3 + 模擬面試 × 1 (Coding)
-- 下午（3h）：Amazon 高頻題 × 2
-
-### Day 2 (Tuesday) - 6 小時
-- 上午（3h）：Amazon 高頻題 × 3 + 模擬面試 × 1 (Coding)
-- 下午（3h）：準備 Leadership & Problem Solving 故事
-
-### Day 3 (Wednesday) - 6 小時
-- 上午（3h）：Medium 題目 × 4
-- 下午（3h）：模擬面試 × 2 (Behavioral)
-
-### Day 4 (Thursday) - 6 小時
-- 上午（3h）：Medium 題目 × 4 + Hard × 1
-- 下午（3h）：準備 Conflict Resolution & Learning 故事 + 模擬面試 × 1 (綜合)
-
-### Day 5 (Friday) - 6 小時
-- 上午（3h）：Hard × 1 + 重做錯題 × 3
-- 下午（3h）：準備 Impact & Teamwork 故事 + 模擬面試 × 2 (綜合)
 
 ---
 

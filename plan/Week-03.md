@@ -7,6 +7,32 @@
 2. 精通 Binary Search 及其變形
 3. 理解 Bitwise Operations 的應用
 
+## 學習建議
+
+### Day 1 (Monday) - 6 小時
+- 上午（3h）：Week-02 複習 + 完成 Week-02 剩餘 Queue LeetCode × 1
+- 下午（3h）：Hash Table 理論影片（Hashing with Chaining, Table Doubling, Open Addressing）
+
+### Day 2 (Tuesday) - 6 小時
+- 上午（3h）：Hash Table 理論影片（PyCon, Advanced Hashing）
+- 下午（3h）：Hash Table Online Courses（Core Hash Tables, Phone Book Problem）
+
+### Day 3 (Wednesday) - 6 小時
+- 上午（3h）：開始實作 Hash Table - hash(), add(), exists()
+- 下午（3h）：完成 Hash Table 實作 - get(), remove() + 測試
+
+### Day 4 (Thursday) - 6 小時
+- 上午（3h）：Binary Search 理論 + 實作（iterative & recursive）
+- 下午（3h）：Bitwise Operations 影片與練習
+
+### Day 5 (Friday) - 6 小時
+- 上午（3h）：LeetCode Hash Table 題目 × 3
+- 下午（3h）：LeetCode Binary Search × 2 + Bitwise × 1
+
+**註：** 剩餘 LeetCode Binary Search × 1、Bitwise × 1、其他剩餘題目與本週複習移至 Week-04 開始進行
+
+---
+
 ## 本週學習內容
 
 ### 📚 Hash Table
@@ -166,32 +192,6 @@ public int binarySearch(int[] nums, int target) {
 
 **Medium**：
 1. [ ] [137. Single Number II](https://leetcode.com/problems/single-number-ii/)
-
----
-
-## 學習建議
-
-### Day 1 (Monday) - 6 小時
-- 上午（3h）：Week-02 複習 + 完成 Week-02 剩餘 Queue LeetCode × 1
-- 下午（3h）：Hash Table 理論影片（Hashing with Chaining, Table Doubling, Open Addressing）
-
-### Day 2 (Tuesday) - 6 小時
-- 上午（3h）：Hash Table 理論影片（PyCon, Advanced Hashing）
-- 下午（3h）：Hash Table Online Courses（Core Hash Tables, Phone Book Problem）
-
-### Day 3 (Wednesday) - 6 小時
-- 上午（3h）：開始實作 Hash Table - hash(), add(), exists()
-- 下午（3h）：完成 Hash Table 實作 - get(), remove() + 測試
-
-### Day 4 (Thursday) - 6 小時
-- 上午（3h）：Binary Search 理論 + 實作（iterative & recursive）
-- 下午（3h）：Bitwise Operations 影片與練習
-
-### Day 5 (Friday) - 6 小時
-- 上午（3h）：LeetCode Hash Table 題目 × 3
-- 下午（3h）：LeetCode Binary Search × 2 + Bitwise × 1
-
-**註：** 剩餘 LeetCode Binary Search × 1、Bitwise × 1、其他剩餘題目與本週複習移至 Week-04 開始進行
 
 ---
 
